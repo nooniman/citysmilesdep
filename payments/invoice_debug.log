@@ -1,0 +1,7 @@
+[2025-03-24 17:34:11] Invoice creation request received: {"appointment_id":"11","amount":"400","notes":""}
+[2025-03-24 18:14:03] Invoice save request received: {"appointment_id":"7","amount":"10000","notes":""}
+[2025-03-24 18:14:03] Invoice created with ID: 6
+[2025-03-24 21:20:18] Invoice save request received: {"appointment_id":"15","amount":"500","notes":""}
+[2025-03-24 21:20:18] Invoice created with ID: 6
+[2025-03-27 14:23:15] Invoice save request received: {"appointment_id":"14","amount":"1000","notes":""}
+[2025-03-27 14:23:15] Invoice created with ID: 6

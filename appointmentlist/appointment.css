@@ -1,0 +1,346 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 1.25em; /* 20px / 16px */
+  border: 1px solid #000;
+  box-shadow: 0 0.3125em 0.3125em rgba(0, 0, 0, 0.1); /* 5px */
+  margin-top: 0.9375em; /* 15px / 16px */
+}
+
+#appointment-text h1 {
+  text-align: left;
+  font-weight: lighter;
+  font-size: 3em;
+  color: black;
+  margin: 0;
+  margin-top: 1vw;
+}
+#text-appointment h1 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+.add_walkin-container {
+  margin-left: auto;
+}
+.add_walkin-button {
+  background-color: #000069;
+  color: white;
+  padding: 0.625em 1.25em; /* 10px 20px */
+  border: none;
+  border-radius: 0.3125em; /* 5px */
+  cursor: pointer;
+}
+.add_walkin-button:hover {
+  background-color: #45a049;
+}
+.text-appointment h1 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+.container {
+  background-color: white;
+  padding: 1.25em; /* 20px */
+  border-radius: 0;
+  border: 1px solid #000;
+  box-shadow: 0 0.3125em 0.3125em rgba(0, 0, 0, 0.1); /* 5px */
+  width: 100%;
+}
+
+.export-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.625em; /* 10px */
+  margin-bottom: 1.25em; /* 20px */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This spreads elements apart */
+  width: 100%;
+  background-color: white;
+  padding: 1.25em;
+  border: 1px solid #000;
+  box-shadow: 0 0.3125em 0.3125em rgba(0, 0, 0, 0.1);
+  margin-top: 0.9375em;
+  box-sizing: border-box;
+}
+
+.head {
+  width: 25%;
+  max-width: 40%;
+  height: 2.5em;
+  padding: 1%;
+  font-size: 1vw;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: block;
+  margin-left: 44.4%;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  width: fit-content;
+  margin-left: 5%;
+}
+select#status_filter {
+  padding: 1%;
+  font-size: 1em;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.export {
+  background-color: #000069;
+  color: white;
+  padding: 0.625em 1.25em; /* 10px 20px */
+  border: none;
+  border-radius: 0.3125em; /* 5px */
+  cursor: pointer;
+}
+
+.export:hover {
+  background-color: #45a049;
+}
+.table-container {
+  width: 100%;
+  margin-top: 1.5em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  padding: 0.625em; /* 10px */
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+th {
+  background-color: #cefcd7;
+}
+
+td:last-child {
+  justify-content: center;
+  align-items: center;
+  gap: 0.8vw;
+  border-top: 0.1% solid black;
+  border-bottom: 0.1% solid black;
+}
+.image-container {
+  width: 3.125em; /* 50px / 16px */
+  height: 3.125em; /* 50px / 16px */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.125em solid black; /* 2px */
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.status-container {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.status-container.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-container.confirmed {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.status-container.completed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-container.cancelled {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-container.reschedule {
+  background-color: #e2d544;
+  color: #5c2c08bc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+button.view {
+  background-color: lightslategrey;
+}
+button.view:hover {
+  background-color: rgb(70, 101, 133);
+}
+
+button.edit:hover {
+  background-color: #0056b3;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Ensure the modal overlay is properly visible and centered */
+.modal-overlay {
+  display: none; /* Default hidden */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure the modal is centered and styled properly */
+.modal {
+  background: white;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 20px; /* Add padding for content */
+  z-index: 1001; /* Ensure it is above the overlay */
+}
+
+/* Add padding and spacing for modal header */
+.modal-header {
+  background: linear-gradient(
+    135deg,
+    #9d7ded,
+    #7b32ab
+  ); /* Match primary colors */
+  color: white;
+  padding: 20px;
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style the close button */
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.modal-close:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: rotate(90deg);
+}
+
+/* Add padding for modal body */
+.modal-body {
+  padding: 20px 30px;
+}
+
+/* Style the modal footer buttons */
+.modal-footer {
+  padding: 15px 20px;
+  border-top: 1px solid #e9ecef;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-footer .btn-action {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+/* Ensure modal inputs are styled properly */
+.modal-body .form-control {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.modal-body .form-control:focus {
+  outline: none;
+  border-color: #9d7ded;
+  box-shadow: 0 0 0 3px rgba(157, 125, 237, 0.15);
+}
+
+/* Confirmation Modal Styles */
+#delete-confirm-modal .modal-content {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#delete-confirm-modal .modal-header {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom: none;
+}
+
+#delete-confirm-modal .modal-body {
+  padding: 1.5rem;
+  font-size: 15px;
+}
+
+#delete-confirm-modal .btn-danger {
+  background-color: #d84040;
+  border: none;
+  padding: 8px 16px;
+  transition: all 0.2s;
+}
+
+#delete-confirm-modal .btn-danger:hover {
+  background-color: #c53030;
+  transform: translateY(-2px);
+}
+
+#delete-confirm-modal .btn-secondary {
+  border: none;
+  padding: 8px 16px;
+}

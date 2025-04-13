@@ -1,0 +1,340 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../images/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Ensures it stays fixed when scrolling */
+  height: 100vh; /* Covers the full viewport height */
+  width: 100vw; /* Covers the full viewport width */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12vh;
+  background: white;
+  border-bottom: 0.1vw solid black;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1000;
+}
+.header h1 {
+  font-size: 2.5vw;
+  margin-left: 1%;
+  color: #7b32ab;
+  white-space: nowrap;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.logo-wrappers {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 10vh;
+  width: auto;
+  padding: 1%;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7.5%;
+  width: 100%;
+}
+.separator {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.login-box {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.9);
+  width: 30%;
+  padding: 1px 30px; /* Reduce top & bottom padding */
+  border-top: 8px solid #000069;
+}
+/* Login form elements */
+.login-form {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-form h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: normal;
+  color: #7b32ab;
+  margin: 0;
+  text-align: center;
+}
+.change-password-title {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  color: #7b32ab;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.side-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  margin: 9% 0;
+}
+
+.left-link {
+  text-decoration: none;
+  color: #000069;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.left-link:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.form-group input {
+  width: 95.5%;
+  padding: 1.5vh;
+  border-radius: 5px;
+  border: 1.3px solid #ccc;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+.submit-button,
+.auth0-button,
+.login-button {
+  width: 95.5%;
+  padding: 1.5vh;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-button,
+.login-button {
+  background: #000069; /* Same background color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.auth0-button {
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  text-align: center;
+  border: 1px solid black;
+  display: flex;
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-size: 1rem;
+  align-items: center; /* Ensures vertical alignment */
+  justify-content: center; /* Centers content horizontally */
+  gap: 8px; /* Adds spacing between the image and text */
+  padding: 1.2vh;
+}
+.auth0-button img {
+  height: 4.1vh;
+  margin-left: 1%;
+  vertical-align: middle;
+}
+.auth0-button:hover,
+.login-button:hover {
+  background-color: black;
+  color: white; /* Consistent hover effect */
+}
+
+/* Ensure consistent container alignment */
+.auth-button-container,
+.login-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #4caf50;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.otp-inputs input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+}
+
+.resend-text {
+  font-size: 14px;
+}
+
+.resend-link {
+  color: #000069;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.resend-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.back-button {
+  width: 100px;
+  padding: 10px;
+  background-color: #000069;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.back-button:hover {
+  background-color: #4caf50;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  height: 90vh;
+  overflow: hidden;
+}
+.form-box {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.9);
+  width: 100%;
+  padding: 20px;
+  border-top: 10px solid #000069;
+  max-height: 50vh;
+  overflow-y: auto;
+  padding-right: 30px; /* Prevents overlap */
+  scrollbar-gutter: stable;
+}
+
+/* Custom Transparent Scrollbar */
+.form-box::-webkit-scrollbar {
+  width: 6px; /* Thin scrollbar */
+}
+
+.form-box::-webkit-scrollbar-track {
+  background: transparent; /* Fully transparent track */
+  margin-top: 10px; /* Avoids overlap with rounded corners */
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.form-box::-webkit-scrollbar-thumb {
+  background: #7b32ab; /* Color of the scrollbar */
+  border-radius: 5px;
+}
+
+/* For Firefox */
+.form-box {
+  scrollbar-width: thin;
+  scrollbar-color: #000069 transparent; /* Only thumb has color */
+}
+
+.login-box .logo-wrappers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: left;
+  margin: 8%;
+}
+
+.login-box .logos {
+  height: 10vh;
+  width: auto;
+}
+
+.login-box .logo-wrappers h1 {
+  font-size: 2rem;
+  color: #000069;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.form-title {
+  font-size: 24px;
+  color: #7b32ab;
+  text-align: center;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.cancel-link {
+  text-decoration: none;
+  color: #000069;
+}
+
+.cancel-link:hover {
+  color: blue;
+}
+
+.is-invalid {
+  border-color: #dc3545 !important;
+  padding-right: calc(1.5em + 0.75rem) !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") !important;
+  background-repeat: no-repeat !important;
+  background-position: right calc(0.375em + 0.1875rem) center !important;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+}
+
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.is-invalid ~ .invalid-feedback {
+  display: block;
+}

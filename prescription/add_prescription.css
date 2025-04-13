@@ -1,0 +1,156 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 1.5em;
+    border: 1px solid #000;
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+}
+
+.prescription-text {
+    text-align: left;              
+    font-weight: lighter;       
+    font-size: 1.875em; 
+    color: black;                  
+    margin-top: -2em;
+}
+
+.text-prescription h1 {
+    margin: 0;                     
+    font-size: 2.1875em; 
+    font-weight: 50;
+}
+
+.backprescription-container {
+    margin-left: auto;
+}
+
+.backprescription-button {
+    background-color: #000069;    
+    color: white;
+    padding: 0.625em 2.25em;
+    border: none;                  
+    border-radius: 0.3125em; 
+    cursor: pointer;               
+}
+
+.backprescription-button:hover {
+    background-color: #11b811;     
+}
+
+.container {
+    background-color: #E2F8ED;
+    padding: 1.5em;
+    border: 1px solid #000;
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1.5em;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    flex: 0 0 100px;
+}
+
+input[type="date"] {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: -3em;
+}
+
+input[type="date"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+select {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: -3em;
+}
+
+select:focus {
+    border-color: #90a3b8;
+    outline: none;
+}
+
+.med-notes {
+    display: flex;
+    gap: 2em;
+    padding: 1.5em;
+    background-color: #e0f7e0;
+    border-radius: 5px;
+}
+
+.input-container {
+    flex: 1;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.input-container label {
+    font-weight: bold;
+    color: #333;
+}
+
+.input-container textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    resize: none;
+    margin-top: 0.5em;
+}
+
+.input-container:last-child {
+    border-color: #ccc;
+}
+
+.button-container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 2em;
+}
+
+.save-button {
+    background-color: #000069;
+    color: white;
+    border: none;
+    border-radius: 0.3125em;
+    padding: 0.625em 1.25em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save-button:hover {
+    background-color: #11b811;
+}
+

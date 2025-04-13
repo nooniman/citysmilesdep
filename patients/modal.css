@@ -1,0 +1,652 @@
+.modal {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+   
+}
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000; /* Ensure modal is on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+body.modal-open {
+    overflow: hidden; /* Prevent scrolling */
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999; /* Behind modal but above everything else */
+    pointer-events: auto; /* Blocks interactions */
+}
+.modal-content {
+    z-index: 1001;
+    background: white;
+    margin: auto;
+    padding: 2rem;
+    height: 80vh;
+    width: 100vh;
+    max-width: 800px; 
+    max-height: 80vh;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    border-top: 10px solid #CEFCD7;
+    max-height: 70vh; /* Limit height */
+    overflow-y: auto; /* Enable scrolling */
+    scrollbar-width: thin;
+    scrollbar-color: #CEFCD7 white; /* Firefox */
+     text-align: left !important; /* Force left alignment for all children */
+
+}
+.modal::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    pointer-events: none; 
+}
+.image-upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.image-upload-container input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.profile-placeholder {
+    width: 10em;
+    height: 10em;
+    border: 2px dashed #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    color: #999;
+    font-size: 1.2em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.profile-placeholder img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.patient-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+h3 {
+    margin-top: 1em;
+}
+
+.form-row {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.form-row input,
+.form-row select {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.form-row input[type="date"] {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.form-actions button {
+    padding: 1% 2%;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+
+#dentalHistoryModal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align everything to the left */
+    text-align: left;
+}
+#dentalHistoryModal input[type="date"] {
+    width: 100%;
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+#dentalHistoryModal h2,
+#dentalHistoryModal h3 {
+    text-align: left;
+}
+#dentalHistoryModal input[type="text"],
+#dentalHistoryModal input[type="date"],
+#dentalHistoryModal input[type="file"],
+#dentalHistoryModal select {
+    width: 100%;
+    padding: 0.8rem 0.9rem; /* Smaller padding */
+    height: 40px; /* Reduce height */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem; /* Slightly smaller font */
+    margin-bottom: 0.4rem;
+    box-sizing: border-box;
+}
+.modal-content h2{
+    text-align: center;
+}
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36px; /* Match other inputs */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: gray;
+    text-align: center;
+}
+.file-item label {
+    display: block;
+    font-weight: bold;
+}
+.custom-file-upload:hover {
+    background-color: #f0f0f0;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none; 
+}
+
+
+#dentalHistoryModal .form-group {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 1%;
+    gap: 1rem;
+    margin-bottom: 1em;
+    width: 100%;
+}
+#dentalHistoryModal .form-group input,
+#dentalHistoryModal .file-container input[type="file"] {
+    width: 100%;
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#dentalHistoryModal input[type="text"]:not(.form-group input[type="text"]) {
+    width: 100%;
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+#dentalHistoryModal input[type="text"],
+#dentalHistoryModal input[type="file"] {
+    width: 100%;
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+#dentalHistoryModal .file-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ensures everything inside is left-aligned */
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#dentalHistoryModal .file-container {
+    margin: 0; /* Ensure no auto margins */
+    width: 100%;
+}
+#dentalHistoryModal .file-item {
+    display: flex;
+    flex-direction: column; /* Stack label and input */
+    align-items: flex-start; /* Align to the left */
+    width: 100%;
+    margin-top: 10px;
+}
+
+#dentalHistoryModal .file-item label {
+    text-align: left; /* Ensure label text aligns to the left */
+    width: 100%;
+    margin-top: 10px;
+}
+
+#dentalHistoryModal .file-item input[type="file"] {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    height: 40px;
+    padding: 1%;
+}
+
+
+#medicalHistoryModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#addPatientModal .modal-content,
+#medicalHistoryModal .modal-content,
+#dentalHistoryModal .modal-content {
+    top: 20%;
+}
+
+#medicalHistoryModal h3 {
+    margin-bottom: 2rem;
+}
+#medicalHistoryModal span {
+    margin-bottom: 1rem;
+}
+#medicalHistoryModal select {
+    padding: 0.6rem;
+    border-radius: 10px;
+}
+#medicalHistoryModal label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#medicalHistoryModal input[type="text"],
+input[type="radio"],
+input[type="checkbox"] {
+    margin-bottom: 1rem;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1.5px solid #ccc;
+}
+
+#medicalHistoryModal .radio-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+#medicalHistoryModal .radio-group label {
+    margin-left: 1rem;
+}
+
+
+
+#medicalHistoryModal .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#medicalHistoryModal .input-group label {
+    margin-right: 10px;
+}
+
+.question {
+    margin-bottom: 1em;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+}
+
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.modal-buttons .btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.modal-buttons .btn.cancel {
+    background: white;
+    color: red;
+}
+
+.modal-buttons .btn.cancel:hover {
+    border: 0.1em solid red;
+}
+
+.modal-buttons .btn.next {
+    background: #CEFCD7;
+    color: black;
+    font-size: 1.2vw;
+    font-weight: normal;
+    border: 0.1em solid black;
+}
+
+.modal-buttons .btn.next:hover {
+    background-color: #118615;
+    color: white;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+.custom-checkbox textarea {
+    width: 100%; /* Make it fit the container */
+    padding: 0.5rem; /* Adjust padding inside the textarea */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: none; /* Prevent resizing if needed */
+    margin-top: 0.5rem; /* Add space above */
+    margin-bottom: 1rem; /* Add space below */
+}
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+label[for="bleeding_time"] {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+input#bleeding_time {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 0; 
+}/* Remove extra space for "Blood Pressure" */
+label[for="blood_pressure"] {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+input#blood_pressure {
+    display: block;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 0; 
+}
+
+/* Add these styles for the patient add modal */
+
+/* Modal styling to match the dashboard design */
+#addPatientModal .modal-content,
+#dentalHistoryModal .modal-content,
+#medicalHistoryModal .modal-content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+#addPatientModal h2,
+#dentalHistoryModal h3,
+#medicalHistoryModal h3 {
+    color: #7B32AB;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--lilac-medium);
+}
+
+.image-upload-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--gray-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-placeholder input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.profile-placeholder span {
+    color: var(--gray-500);
+    font-size: 14px;
+    text-align: center;
+}
+
+.patient-form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.patient-form input[type="text"],
+.patient-form input[type="email"],
+.patient-form input[type="number"],
+.patient-form input[type="date"],
+.patient-form select {
+    padding: 10px 15px;
+    border: 1px solid var(--gray-300);
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn.cancel {
+    background-color: var(--gray-300);
+    color: var(--gray-700);
+}
+
+.btn.next {
+    background-color: #7B32AB;
+    color: white;
+}
+
+.btn.cancel:hover {
+    background-color: var(--gray-400);
+}
+
+.btn.next:hover {
+    background-color: #632789;
+}
+
+/* Styling for medical history table */
+.medical-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.medical-history-table th,
+.medical-history-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--gray-300);
+}
+
+.medical-history-table th {
+    background-color: var(--gray-100);
+    font-weight: 600;
+}
+
+/* Checkboxes styling */
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    accent-color: #7B32AB;
+}
+
+/* File upload styling */
+.file-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.file-item {
+    flex: 1;
+    min-width: 200px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: var(--gray-200);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.custom-file-upload:hover {
+    background-color: var(--gray-300);
+}
+
+/* Make sure modals don't show until triggered */
+#addPatientModal, 
+#dentalHistoryModal, 
+#medicalHistoryModal {
+    display: none;
+}
+
+/* Other option areas in forms */
+.other-option {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.other-option textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--gray-300);
+    border-radius: 5px;
+    resize: vertical;
+}

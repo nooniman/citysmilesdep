@@ -1,0 +1,667 @@
+[2025-03-21 14:54:54] Callback started
+[2025-03-21 14:54:54] URL: /CitySmilesRepo/old/login/auth0callback.php?code=EuUtn1c42f_BTpZFebzu4Kn7APw0wwdKHfTJBnRsGAMye&state=e5fd9da64d822da5cadf497065059e96
+[2025-03-21 14:54:54] GET params: Array
+(
+    [code] => EuUtn1c42f_BTpZFebzu4Kn7APw0wwdKHfTJBnRsGAMye
+    [state] => e5fd9da64d822da5cadf497065059e96
+)
+
+[2025-03-21 14:54:54] Required files loaded
+[2025-03-21 14:54:54] Session started
+[2025-03-21 14:54:54] Initializing Auth0...
+[2025-03-21 14:54:54] Exchanging code for tokens...
+[2025-03-21 14:54:55] Getting user profile...
+[2025-03-21 14:54:55] User info retrieved: {"given_name":"ANAS MOHAMMAD EMBAY","family_name":"DEMONTEVERDE","nickname":"qb202105289","name":"ANAS MOHAMMAD EMBAY DEMONTEVERDE","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocLzKe1eMglt0MR3oLf_5Nk8q-YGP9DSN18bDhT_JT1C1pMR7ZE=s96-c","updated_at":"2025-03-21T13:49:03.496Z","email":"qb202105289@wmsu.edu.ph","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|106631626283872951208","iat":1742565295,"exp":1742601295,"sid":"nLbT3a1hc90bEDbzLCjSeW1ovtHhE3Qh","nonce":"5069dbb556185a57bcf8ab919c239a92"}
+[2025-03-21 14:54:55] Checking if user exists with email: qb202105289@wmsu.edu.ph
+[2025-03-21 14:54:55] Database query executed, found rows: 0
+[2025-03-21 14:54:55] New user, registering
+[2025-03-21 14:54:55] Inserting new user: qb202105289253
+[2025-03-21 14:54:55] New user created, ID: 18
+[2025-03-21 14:54:55] Redirecting to profile completion
+[2025-03-21 14:55:43] Callback started
+[2025-03-21 14:55:43] URL: /CitySmilesRepo/old/login/auth0callback.php?code=bWyY62MmdfwSocQZkQrl5VXtNRuOMHzk8uopNjVCOO5JK&state=e5b7aa70a8f7dc1b3a2884170fedfa33
+[2025-03-21 14:55:43] GET params: Array
+(
+    [code] => bWyY62MmdfwSocQZkQrl5VXtNRuOMHzk8uopNjVCOO5JK
+    [state] => e5b7aa70a8f7dc1b3a2884170fedfa33
+)
+
+[2025-03-21 14:55:43] Required files loaded
+[2025-03-21 14:55:43] Session started
+[2025-03-21 14:55:43] Initializing Auth0...
+[2025-03-21 14:55:43] Exchanging code for tokens...
+[2025-03-21 14:55:44] Getting user profile...
+[2025-03-21 14:55:44] User info retrieved: {"given_name":"Nas","family_name":"Demonteverde","nickname":"Nas Demonteverde","name":"Nas Demonteverde","picture":"https:\/\/platform-lookaside.fbsbx.com\/platform\/profilepic\/?asid=2682272941982190&height=50&width=50&ext=1745157341&hash=Abar6Z9KV6-NnAIW7nhqPLId","updated_at":"2025-03-21T13:55:41.595Z","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"facebook|2682272941982190","iat":1742565344,"exp":1742601344,"sid":"KREcPOFXDOAcaMhGaron1y1PL7_vy-V4","nonce":"93a24e25d27c3523dd1f0bdd968f83c4"}
+[2025-03-21 14:55:44] Checking if user exists with email: 
+[2025-03-21 14:55:44] Database query executed, found rows: 0
+[2025-03-21 14:55:44] New user, registering
+[2025-03-21 14:55:44] Inserting new user: 872
+[2025-03-21 14:55:44] ERROR: Column 'email' cannot be null
+#0 C:\xampp\htdocs\CitySmilesRepo\old\login\auth0callback.php(127): mysqli_stmt->execute()
+#1 {main}
+[2025-03-21 14:56:34] Callback started
+[2025-03-21 14:56:34] URL: /CitySmilesRepo/old/login/auth0callback.php?code=B1JxOkky8p3yxRCedzv20jS0AeE77GHkqMX5meK-QFTyA&state=c0f75214c948785472a50bfe1effb51e
+[2025-03-21 14:56:34] GET params: Array
+(
+    [code] => B1JxOkky8p3yxRCedzv20jS0AeE77GHkqMX5meK-QFTyA
+    [state] => c0f75214c948785472a50bfe1effb51e
+)
+
+[2025-03-21 14:56:34] Required files loaded
+[2025-03-21 14:56:34] Session started
+[2025-03-21 14:56:34] Initializing Auth0...
+[2025-03-21 14:56:34] Exchanging code for tokens...
+[2025-03-21 14:56:35] Getting user profile...
+[2025-03-21 14:56:35] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-03-21T13:56:32.827Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1742565395,"exp":1742601395,"sid":"Vp0kF33vrlRiOjPtJ1ZLkYaHhSWr_LRh","nonce":"95299ad269ef369956ee152dff9b1d3c"}
+[2025-03-21 14:56:35] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-03-21 14:56:35] Database query executed, found rows: 1
+[2025-03-21 14:56:35] Existing user found, logging in
+[2025-03-21 14:56:35] Session vars set, redirecting to dashboard
+[2025-03-21 14:56:46] Callback started
+[2025-03-21 14:56:46] URL: /CitySmilesRepo/old/login/auth0callback.php?code=O6ReWDHRl6vREtFSwOkacennSb6HVe6wb66JbWHtCSPg3&state=287f4d610e6ea4e11f44be64d032ea9c
+[2025-03-21 14:56:46] GET params: Array
+(
+    [code] => O6ReWDHRl6vREtFSwOkacennSb6HVe6wb66JbWHtCSPg3
+    [state] => 287f4d610e6ea4e11f44be64d032ea9c
+)
+
+[2025-03-21 14:56:46] Required files loaded
+[2025-03-21 14:56:46] Session started
+[2025-03-21 14:56:46] Initializing Auth0...
+[2025-03-21 14:56:46] Exchanging code for tokens...
+[2025-03-21 14:56:47] Getting user profile...
+[2025-03-21 14:56:47] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-03-21T13:56:47.294Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1742565408,"exp":1742601408,"sid":"qWLAWvVUi46L9J9-2jJsALFD5Nv11CdT","nonce":"8a6a4ae0cd37995ccd30dc1287bafd0c"}
+[2025-03-21 14:56:47] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-03-21 14:56:47] Database query executed, found rows: 1
+[2025-03-21 14:56:47] Existing user found, logging in
+[2025-03-21 14:56:47] Session vars set, redirecting to dashboard
+[2025-03-24 15:03:12] Callback started
+[2025-03-24 15:03:12] URL: /CitySmilesRepo/old/login/auth0callback.php?code=ZbqmpZHbIml-vtX53PLRdamnPi1QWG36oALHKKjJG9AOV&state=477cd429ae197b48386304573bbdb916
+[2025-03-24 15:03:12] GET params: Array
+(
+    [code] => ZbqmpZHbIml-vtX53PLRdamnPi1QWG36oALHKKjJG9AOV
+    [state] => 477cd429ae197b48386304573bbdb916
+)
+
+[2025-03-21 16:49:40] Required files loaded
+[2025-03-21 16:49:40] Session started
+[2025-03-21 16:49:40] Initializing Auth0...
+[2025-03-21 16:49:40] Exchanging code for tokens...
+[2025-03-21 16:49:41] Getting user profile...
+[2025-03-21 16:49:41] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-03-21T15:49:33.316Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1742572179,"exp":1742608179,"sid":"IPklUWuaanzao7qNKyzLlvPV5kwhDPAi","nonce":"39fbbd65ecf47f3a6d749dfdf521cae2"}
+[2025-03-21 16:49:41] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-03-21 16:49:41] Database query executed, found rows: 0
+[2025-03-21 16:49:41] New user, registering
+[2025-03-21 16:49:41] Inserting new user: franciscochristian262486
+[2025-03-21 16:49:41] New user created, ID: 19
+[2025-03-21 16:49:41] Redirecting to profile completion
+[2025-03-24 14:49:54] Callback started
+[2025-03-24 14:49:54] URL: /CitySmilesRepo/old/login/auth0callback.php?code=nbEhERMlNe3pk5kdIwiNAI7O9CuDDI5ygNwt7lsHJ19yz&state=256cad9e071dc0e8768a156505dc715c
+[2025-03-24 14:49:54] GET params: Array
+(
+    [code] => nbEhERMlNe3pk5kdIwiNAI7O9CuDDI5ygNwt7lsHJ19yz
+    [state] => 256cad9e071dc0e8768a156505dc715c
+)
+
+[2025-03-24 14:49:54] Required files loaded
+[2025-03-24 14:49:54] Session started
+[2025-03-24 14:49:54] Initializing Auth0...
+[2025-03-24 14:49:54] Exchanging code for tokens...
+[2025-03-24 14:49:56] Getting user profile...
+[2025-03-24 14:49:56] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-03-24T13:49:55.006Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1742824196,"exp":1742860196,"sid":"1FVGOozl4Rap-nBwwLZDeKDAcKHcyS1w","nonce":"9811cddfea89f283fa86dca080fed6e6"}
+[2025-03-24 14:49:56] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-03-24 14:49:56] Database query executed, found rows: 1
+[2025-03-24 14:49:56] Existing user found, logging in
+[2025-03-24 14:49:56] Session vars set, role: patient
+[2025-03-24 14:49:56] Redirecting to user dashboard
+[2025-03-24 14:50:41] Callback started
+[2025-03-24 14:50:41] URL: /CitySmilesRepo/old/login/auth0callback.php?code=42DyQlAVnM5z85PtPK1hMc0ImdlzqvsazIM881tkpc0XC&state=2bea7ddf90bac393c9885447692c506f
+[2025-03-24 14:50:41] GET params: Array
+(
+    [code] => 42DyQlAVnM5z85PtPK1hMc0ImdlzqvsazIM881tkpc0XC
+    [state] => 2bea7ddf90bac393c9885447692c506f
+)
+
+[2025-03-24 14:50:41] Required files loaded
+[2025-03-24 14:50:41] Session started
+[2025-03-24 14:50:41] Initializing Auth0...
+[2025-03-24 14:50:41] Exchanging code for tokens...
+[2025-03-24 14:50:42] Getting user profile...
+[2025-03-24 14:50:42] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-03-24T13:50:41.957Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1742824242,"exp":1742860242,"sid":"Ub0llnA1RTLHuvoMIuG5X3aOSBcExK4K","nonce":"272fe24313891e521548c4e167cf8fd2"}
+[2025-03-24 14:50:42] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-03-24 14:50:42] Database query executed, found rows: 1
+[2025-03-24 14:50:42] Existing user found, logging in
+[2025-03-24 14:50:42] Session vars set, role: patient
+[2025-03-24 14:50:42] Redirecting to user dashboard
+[2025-03-24 14:54:34] Callback started
+[2025-03-24 14:54:34] URL: /CitySmilesRepo/old/login/auth0callback.php?code=oWyJjOeq43ZSYqUENnQuHDMqFOHuOzxcvdC-V-D_E6WQi&state=e53686693bb3910502c3873e473a5361
+[2025-03-24 14:54:34] GET params: Array
+(
+    [code] => oWyJjOeq43ZSYqUENnQuHDMqFOHuOzxcvdC-V-D_E6WQi
+    [state] => e53686693bb3910502c3873e473a5361
+)
+
+[2025-03-24 14:54:34] Required files loaded
+[2025-03-24 14:54:34] Session started
+[2025-03-24 14:54:34] Initializing Auth0...
+[2025-03-24 14:54:34] Exchanging code for tokens...
+[2025-03-24 14:54:35] Getting user profile...
+[2025-03-24 14:54:35] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-03-24T13:54:34.503Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1742824475,"exp":1742860475,"sid":"vxVmN9kXz0d0ioQkl2RzETNe_JWXlqSC","nonce":"04b939a3645906dc68e888f70f47823c"}
+[2025-03-24 14:54:35] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-03-24 14:54:35] Database query executed, found rows: 1
+[2025-03-24 14:54:35] Existing user found, logging in
+[2025-03-24 14:54:35] Session vars set, role: patient
+[2025-03-24 14:54:35] Redirecting to user dashboard
+[2025-03-24 16:14:35] Callback started
+[2025-03-24 16:14:35] URL: /CitySmilesRepo/old/login/auth0callback.php?code=g1oi-k1Z6gkxqgrqVCy8F8KSP0N2s-cw36ZktL5c_qox9&state=3177aee3b4abac52ab821012102212d4
+[2025-03-24 16:14:35] GET params: Array
+(
+    [code] => g1oi-k1Z6gkxqgrqVCy8F8KSP0N2s-cw36ZktL5c_qox9
+    [state] => 3177aee3b4abac52ab821012102212d4
+)
+
+[2025-03-24 16:14:35] Required files loaded
+[2025-03-24 16:14:35] Session started
+[2025-03-24 16:14:35] Initializing Auth0...
+[2025-03-24 16:14:35] Exchanging code for tokens...
+[2025-03-24 16:14:36] Getting user profile...
+[2025-03-24 16:14:36] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-03-24T15:14:36.289Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1742829277,"exp":1742865277,"sid":"TYzINoOi6W_UzoG96EJhafYu-5CPwkJk","nonce":"dd6b6fa373190b6a16264bc2d6458863"}
+[2025-03-24 16:14:36] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-03-24 16:14:36] Database query executed, found rows: 1
+[2025-03-24 16:14:36] Existing user found, logging in
+[2025-03-24 16:14:36] Session vars set, role: patient
+[2025-03-24 16:14:36] Redirecting to user dashboard
+[2025-03-24 17:06:58] Callback started
+[2025-03-24 17:06:58] URL: /CitySmilesRepo/old/login/auth0callback.php?code=bzAWpO-Js7QZvu_8ReT7geLY8r3dkL3o5JxRXlCiJNNuC&state=7598a9c2252ca38c30e207bc48f07543
+[2025-03-24 17:06:58] GET params: Array
+(
+    [code] => bzAWpO-Js7QZvu_8ReT7geLY8r3dkL3o5JxRXlCiJNNuC
+    [state] => 7598a9c2252ca38c30e207bc48f07543
+)
+
+[2025-03-24 17:06:58] Required files loaded
+[2025-03-24 17:06:58] Session started
+[2025-03-24 17:06:58] Initializing Auth0...
+[2025-03-24 17:06:58] Exchanging code for tokens...
+[2025-03-24 17:06:59] Getting user profile...
+[2025-03-24 17:06:59] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-03-24T16:06:59.119Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1742832420,"exp":1742868420,"sid":"KJlYV7IhAZL0xqoxcGA-KgRbFxh76X1n","nonce":"df87f0c79e83c793680d3941a1c03c7b"}
+[2025-03-24 17:06:59] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-03-24 17:06:59] Database query executed, found rows: 1
+[2025-03-24 17:06:59] Existing user found, logging in
+[2025-03-24 17:06:59] Session vars set, role: patient
+[2025-03-24 17:06:59] Redirecting to user dashboard
+[2025-03-24 20:33:33] Callback started
+[2025-03-24 20:33:33] URL: /CitySmilesRepo/old/login/auth0callback.php?code=ACr39vv1m8hrqaQcBHo1gVJDuoUyXzYXQqZFASB2Jg0_o&state=56f7267b387366226eef2268c8ddab45
+[2025-03-24 20:33:33] GET params: Array
+(
+    [code] => ACr39vv1m8hrqaQcBHo1gVJDuoUyXzYXQqZFASB2Jg0_o
+    [state] => 56f7267b387366226eef2268c8ddab45
+)
+
+[2025-03-24 20:33:33] Required files loaded
+[2025-03-24 20:33:33] Session started
+[2025-03-24 20:33:33] Initializing Auth0...
+[2025-03-24 20:33:33] Exchanging code for tokens...
+[2025-03-24 20:33:34] Getting user profile...
+[2025-03-24 20:33:34] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-03-24T19:33:33.797Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1742844815,"exp":1742880815,"sid":"gia78k8vBGISazAEYhappDdG6cKr_fgM","nonce":"38f24fe331c12107f333b6a231bb1db5"}
+[2025-03-24 20:33:34] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-03-24 20:33:34] Database query executed, found rows: 1
+[2025-03-24 20:33:34] Existing user found, logging in
+[2025-03-24 20:33:34] Updating auth0_id for user
+[2025-03-24 20:33:34] Session vars set, role: dentist
+[2025-03-24 20:33:34] Redirecting to admin dashboard
+[2025-03-24 20:37:35] Callback started
+[2025-03-24 20:37:35] URL: /CitySmilesRepo/old/login/auth0callback.php?code=qi8piKnzlyumpVL922O0ctDaVmA-IFeEhVuaTXV8q57Qc&state=75c7da31794af3de4e1ecef3e4bb6d1f
+[2025-03-24 20:37:35] GET params: Array
+(
+    [code] => qi8piKnzlyumpVL922O0ctDaVmA-IFeEhVuaTXV8q57Qc
+    [state] => 75c7da31794af3de4e1ecef3e4bb6d1f
+)
+
+[2025-03-24 20:37:35] Required files loaded
+[2025-03-24 20:37:35] Session started
+[2025-03-24 20:37:35] Initializing Auth0...
+[2025-03-24 20:37:35] Exchanging code for tokens...
+[2025-03-24 20:37:36] Getting user profile...
+[2025-03-24 20:37:36] User info retrieved: {"given_name":"ANAS MOHAMMAD EMBAY","family_name":"DEMONTEVERDE","nickname":"qb202105289","name":"ANAS MOHAMMAD EMBAY DEMONTEVERDE","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocLzKe1eMglt0MR3oLf_5Nk8q-YGP9DSN18bDhT_JT1C1pMR7ZE=s96-c","updated_at":"2025-03-24T19:37:36.032Z","email":"qb202105289@wmsu.edu.ph","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|106631626283872951208","iat":1742845057,"exp":1742881057,"sid":"0QA5_ha0tch8Dzr9k9wjcO9W95iA0TYd","nonce":"21013a1ca418a1c13a8cbd900d2ddfaf"}
+[2025-03-24 20:37:36] Checking if user exists with email: qb202105289@wmsu.edu.ph
+[2025-03-24 20:37:36] Database query executed, found rows: 0
+[2025-03-24 20:37:36] New user, registering
+[2025-03-24 20:37:36] Inserting new user: qb202105289171
+[2025-03-24 20:37:36] New user created, ID: 21
+[2025-03-24 20:37:36] Redirecting to profile completion
+[2025-03-24 21:11:07] Callback started
+[2025-03-24 21:11:07] URL: /CitySmilesRepo/old/login/auth0callback.php?code=Uqi-G6QDAdg9jcIohhbYQuHgfrsBHXWMf3v1rDW9JOV1E&state=fe12f9ab4a3f7af2e2f04aab513cbc94
+[2025-03-24 21:11:07] GET params: Array
+(
+    [code] => Uqi-G6QDAdg9jcIohhbYQuHgfrsBHXWMf3v1rDW9JOV1E
+    [state] => fe12f9ab4a3f7af2e2f04aab513cbc94
+)
+
+[2025-03-24 21:11:07] Required files loaded
+[2025-03-24 21:11:07] Session started
+[2025-03-24 21:11:07] Initializing Auth0...
+[2025-03-24 21:11:07] Exchanging code for tokens...
+[2025-03-24 21:11:08] Getting user profile...
+[2025-03-24 21:11:08] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-03-24T20:11:07.951Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1742847069,"exp":1742883069,"sid":"-aCrG0ldhTEPSGGwMq5gfz6fvo7d8jlh","nonce":"f6552a788b76ab82d566270e3bdc1491"}
+[2025-03-24 21:11:08] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-03-24 21:11:08] Database query executed, found rows: 1
+[2025-03-24 21:11:08] Existing user found, logging in
+[2025-03-24 21:11:08] Session vars set, role: dentist
+[2025-03-24 21:11:08] Redirecting to admin dashboard
+[2025-03-24 21:11:34] Callback started
+[2025-03-24 21:11:34] URL: /CitySmilesRepo/old/login/auth0callback.php?code=fi9Cpe20aimx5JTLDSlGUghSg5XGGczpOiYrgHTUKlZ9r&state=40961b81dbc71d6095b2492fc3ad15f9
+[2025-03-24 21:11:34] GET params: Array
+(
+    [code] => fi9Cpe20aimx5JTLDSlGUghSg5XGGczpOiYrgHTUKlZ9r
+    [state] => 40961b81dbc71d6095b2492fc3ad15f9
+)
+
+[2025-03-24 21:11:34] Required files loaded
+[2025-03-24 21:11:34] Session started
+[2025-03-24 21:11:34] Initializing Auth0...
+[2025-03-24 21:11:34] Exchanging code for tokens...
+[2025-03-24 21:11:35] Getting user profile...
+[2025-03-24 21:11:35] User info retrieved: {"given_name":"ANAS MOHAMMAD EMBAY","family_name":"DEMONTEVERDE","nickname":"qb202105289","name":"ANAS MOHAMMAD EMBAY DEMONTEVERDE","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocLzKe1eMglt0MR3oLf_5Nk8q-YGP9DSN18bDhT_JT1C1pMR7ZE=s96-c","updated_at":"2025-03-24T20:11:35.471Z","email":"qb202105289@wmsu.edu.ph","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|106631626283872951208","iat":1742847096,"exp":1742883096,"sid":"9VzWZz9SLxB9gEtKXIEw0_11G3VQ8cp9","nonce":"534247c4d7097982142f8ada9a25645e"}
+[2025-03-24 21:11:35] Checking if user exists with email: qb202105289@wmsu.edu.ph
+[2025-03-24 21:11:35] Database query executed, found rows: 1
+[2025-03-24 21:11:35] Existing user found, logging in
+[2025-03-24 21:11:35] Session vars set, role: patient
+[2025-03-24 21:11:35] Redirecting to user dashboard
+[2025-03-27 21:08:59] Callback started
+[2025-03-27 21:08:59] URL: /CitySmilesRepo/old/login/auth0callback.php?code=I4FznqBXOhghqW416fryXfiZxj7yOacVi2R6Yo-2qQvc4&state=8090d512e528475ab30e78b80d130a40
+[2025-03-27 21:08:59] GET params: Array
+(
+    [code] => I4FznqBXOhghqW416fryXfiZxj7yOacVi2R6Yo-2qQvc4
+    [state] => 8090d512e528475ab30e78b80d130a40
+)
+
+[2025-03-27 21:08:59] Required files loaded
+[2025-03-27 21:08:59] Session started
+[2025-03-27 21:08:59] Initializing Auth0...
+[2025-03-27 21:08:59] Exchanging code for tokens...
+[2025-03-27 21:09:00] Getting user profile...
+[2025-03-27 21:09:00] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-03-27T20:08:59.996Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1743106141,"exp":1743142141,"sid":"gdYcbt4qIo3GFXdgGrs-Y78jzP47v0rN","nonce":"02dfaeb0b42476224f8eb383421af0e0"}
+[2025-03-27 21:09:00] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-03-27 21:09:00] Database query executed, found rows: 1
+[2025-03-27 21:09:00] Existing user found, logging in
+[2025-03-27 21:09:00] Session vars set, role: patient
+[2025-03-27 21:09:00] Redirecting to user dashboard
+[2025-04-01 06:01:23] Callback started
+[2025-04-01 06:01:23] URL: /CitySmilesRepo/old/login/auth0callback.php?code=jtdJ7_qQ_jVPpSfRJQU-2TmGKFmEF4uOjbnFFN5iTscWS&state=7b4bb276cd7013eb70b147db93506f10
+[2025-04-01 06:01:23] GET params: Array
+(
+    [code] => jtdJ7_qQ_jVPpSfRJQU-2TmGKFmEF4uOjbnFFN5iTscWS
+    [state] => 7b4bb276cd7013eb70b147db93506f10
+)
+
+[2025-04-01 06:01:23] Required files loaded
+[2025-04-01 06:01:23] Session started
+[2025-04-01 06:01:23] Initializing Auth0...
+[2025-04-01 06:01:23] Exchanging code for tokens...
+[2025-04-01 06:01:25] Getting user profile...
+[2025-04-01 06:01:25] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-01T04:01:25.666Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1743480086,"exp":1743516086,"sid":"Lxvaxxy5gu8b_0bHwYPBcHl1rYYcMKac","nonce":"71e2ee79b02fc5541cefd8e1c29f92b2"}
+[2025-04-01 06:01:25] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-01 06:01:25] Database query executed, found rows: 1
+[2025-04-01 06:01:25] Existing user found, logging in
+[2025-04-01 06:01:25] Session vars set, role: patient
+[2025-04-01 06:01:25] Redirecting to user dashboard
+[2025-04-01 06:02:41] Callback started
+[2025-04-01 06:02:41] URL: /CitySmilesRepo/old/login/auth0callback.php?code=3iAJUyWSJRJE3KI5M9V7f1WTev1aVP6QZ-tLzMZdAg20U&state=ed161b29ffb6cfdc4c30e5997872955b
+[2025-04-01 06:02:41] GET params: Array
+(
+    [code] => 3iAJUyWSJRJE3KI5M9V7f1WTev1aVP6QZ-tLzMZdAg20U
+    [state] => ed161b29ffb6cfdc4c30e5997872955b
+)
+
+[2025-04-01 06:02:41] Required files loaded
+[2025-04-01 06:02:41] Session started
+[2025-04-01 06:02:41] Initializing Auth0...
+[2025-04-01 06:02:41] Exchanging code for tokens...
+[2025-04-01 06:02:42] Getting user profile...
+[2025-04-01 06:02:42] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-01T04:01:25.666Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1743480164,"exp":1743516164,"sid":"Lxvaxxy5gu8b_0bHwYPBcHl1rYYcMKac","nonce":"6042fbfe01601d9af0abff2dd1859587"}
+[2025-04-01 06:02:42] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-01 06:02:42] Database query executed, found rows: 1
+[2025-04-01 06:02:42] Existing user found, logging in
+[2025-04-01 06:02:42] Session vars set, role: patient
+[2025-04-01 06:02:42] Redirecting to user dashboard
+[2025-04-01 06:29:47] Callback started
+[2025-04-01 06:29:47] URL: /CitySmilesRepo/old/login/auth0callback.php?code=mjNV28W9E6TWGDs8FQc812RkplvF_dIVMEBGjKHKN1Bei&state=9884f855facf08b0f470103c5ef08578
+[2025-04-01 06:29:47] GET params: Array
+(
+    [code] => mjNV28W9E6TWGDs8FQc812RkplvF_dIVMEBGjKHKN1Bei
+    [state] => 9884f855facf08b0f470103c5ef08578
+)
+
+[2025-04-01 06:29:47] Required files loaded
+[2025-04-01 06:29:47] Session started
+[2025-04-01 06:29:47] Initializing Auth0...
+[2025-04-01 06:29:47] Exchanging code for tokens...
+[2025-04-01 06:29:49] Getting user profile...
+[2025-04-01 06:29:49] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-01T04:29:49.205Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1743481790,"exp":1743517790,"sid":"7pBIYkzJdgfzxx6VRxCCZhBBjtBxsz1W","nonce":"a784018f409a38c3395800056aae5722"}
+[2025-04-01 06:29:49] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-01 06:29:49] Database query executed, found rows: 1
+[2025-04-01 06:29:49] Existing user found, logging in
+[2025-04-01 06:29:49] Session vars set, role: patient
+[2025-04-01 06:29:49] Redirecting to user dashboard
+[2025-04-01 13:12:37] Callback started
+[2025-04-01 13:12:37] URL: /CitySmilesRepo/old/login/auth0callback.php?code=TZ4EE9RPV6tbgHS6h00yqK4Y1h2cgZHVFkkVkX4hwLm-t&state=f86ee3e00d7fd51df8a7ffeb6d85d583
+[2025-04-01 13:12:37] GET params: Array
+(
+    [code] => TZ4EE9RPV6tbgHS6h00yqK4Y1h2cgZHVFkkVkX4hwLm-t
+    [state] => f86ee3e00d7fd51df8a7ffeb6d85d583
+)
+
+[2025-04-01 13:12:37] Required files loaded
+[2025-04-01 13:12:37] Session started
+[2025-04-01 13:12:37] Initializing Auth0...
+[2025-04-01 13:12:37] Exchanging code for tokens...
+[2025-04-01 13:12:38] Getting user profile...
+[2025-04-01 13:12:38] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-01T11:12:38.801Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1743505960,"exp":1743541960,"sid":"enIjyHVlppKz3zQHoYwmP2eorVPAIvOW","nonce":"096d2aba9391a6c4b649fea846937d5e"}
+[2025-04-01 13:12:38] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-01 13:12:38] Database query executed, found rows: 1
+[2025-04-01 13:12:38] Existing user found, logging in
+[2025-04-01 13:12:38] Updating profile picture for user from Auth0
+[2025-04-01 13:12:38] Session vars set, role: patient
+[2025-04-01 13:12:38] Redirecting to user dashboard
+[2025-04-01 16:46:14] Callback started
+[2025-04-01 16:46:14] URL: /CitySmilesRepo/old/login/auth0callback.php?code=VjM357dqaq0yEBBAw-VEUxqaj3qznGmJiP2A7ifMSLIxp&state=e7af7de719c8ccbd029a0c0c8764fc43
+[2025-04-01 16:46:14] GET params: Array
+(
+    [code] => VjM357dqaq0yEBBAw-VEUxqaj3qznGmJiP2A7ifMSLIxp
+    [state] => e7af7de719c8ccbd029a0c0c8764fc43
+)
+
+[2025-04-01 16:46:14] Required files loaded
+[2025-04-01 16:46:14] Session started
+[2025-04-01 16:46:14] Initializing Auth0...
+[2025-04-01 16:46:14] Exchanging code for tokens...
+[2025-04-01 16:46:16] Getting user profile...
+[2025-04-01 16:46:16] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-01T14:46:16.365Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1743518778,"exp":1743554778,"sid":"WPIxfdz-9n9b3o0ghu-4_jS32sgF79sf","nonce":"81be3ea3975a3d72af9fc5902bb4323f"}
+[2025-04-01 16:46:16] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-01 16:46:16] Database query executed, found rows: 1
+[2025-04-01 16:46:16] Existing user found, logging in
+[2025-04-01 16:46:16] Updating profile picture for user from Auth0
+[2025-04-01 16:46:16] Session vars set, role: patient
+[2025-04-01 16:46:16] Redirecting to user dashboard
+[2025-04-01 16:50:39] Callback started
+[2025-04-01 16:50:39] URL: /CitySmilesRepo/old/login/auth0callback.php?code=Wkytk6Aj_5XjA2BnEAwf2VMERhQ0Grz9oLrq6Au0s6976&state=d98dac03e403c960c9b210f4200f0c41
+[2025-04-01 16:50:39] GET params: Array
+(
+    [code] => Wkytk6Aj_5XjA2BnEAwf2VMERhQ0Grz9oLrq6Au0s6976
+    [state] => d98dac03e403c960c9b210f4200f0c41
+)
+
+[2025-04-01 16:50:39] Required files loaded
+[2025-04-01 16:50:39] Session started
+[2025-04-01 16:50:39] Initializing Auth0...
+[2025-04-01 16:50:39] Exchanging code for tokens...
+[2025-04-01 16:50:41] Getting user profile...
+[2025-04-01 16:50:41] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-01T14:50:41.572Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1743519042,"exp":1743555042,"sid":"FtTWdW6NSauHh6_nD0DDaBPOr3Ksse_s","nonce":"a8f20249877d4b354c1ee4e511d29537"}
+[2025-04-01 16:50:41] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-01 16:50:41] Database query executed, found rows: 0
+[2025-04-01 16:50:41] New user, registering
+[2025-04-01 16:50:41] Inserting new user: franciscochristian262587
+[2025-04-01 16:50:41] New user created, ID: 26
+[2025-04-01 16:50:41] Redirecting to profile completion
+[2025-04-01 17:05:14] Callback started
+[2025-04-01 17:05:14] URL: /CitySmilesRepo/old/login/auth0callback.php?code=qQ7mTJE3Z4IjmC2T8sgPSW5a6QrmHiiPm7CG0_rfi1FtS&state=7a98212bdc7553decb4f1589808adc96
+[2025-04-01 17:05:14] GET params: Array
+(
+    [code] => qQ7mTJE3Z4IjmC2T8sgPSW5a6QrmHiiPm7CG0_rfi1FtS
+    [state] => 7a98212bdc7553decb4f1589808adc96
+)
+
+[2025-04-01 17:05:14] Required files loaded
+[2025-04-01 17:05:14] Session started
+[2025-04-01 17:05:14] Initializing Auth0...
+[2025-04-01 17:05:14] Exchanging code for tokens...
+[2025-04-01 17:05:16] Getting user profile...
+[2025-04-01 17:05:16] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-01T15:05:16.175Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1743519917,"exp":1743555917,"sid":"b6_3ncp2jeIS01rWEDRBbTBVcDGzWBvH","nonce":"d978ea5576f2043e47f0ea408b637058"}
+[2025-04-01 17:05:16] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-01 17:05:16] Database query executed, found rows: 1
+[2025-04-01 17:05:16] Existing user found, logging in
+[2025-04-01 17:05:16] Updating profile picture for user from Auth0
+[2025-04-01 17:05:16] Session vars set, role: patient
+[2025-04-01 17:05:16] Redirecting to user dashboard
+<<<<<<< Updated upstream
+[2025-04-07 18:41:31] Callback started
+[2025-04-07 18:41:31] URL: /CitySmilesRepo/old/login/auth0callback.php?code=aa0xQiO1-X4Wva38ZpiLXMfLxgP058JEl2T-xXr6ZoLwr&state=b39c83e3bab85186a428ddad0b8d8dbc
+[2025-04-07 18:41:31] GET params: Array
+(
+    [code] => aa0xQiO1-X4Wva38ZpiLXMfLxgP058JEl2T-xXr6ZoLwr
+    [state] => b39c83e3bab85186a428ddad0b8d8dbc
+)
+
+[2025-04-07 18:41:31] Required files loaded
+[2025-04-07 18:41:31] Session started
+[2025-04-07 18:41:31] Initializing Auth0...
+[2025-04-07 18:41:31] Exchanging code for tokens...
+[2025-04-07 18:41:33] Getting user profile...
+[2025-04-07 18:41:33] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-07T16:41:32.467Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1744044093,"exp":1744080093,"sid":"M6g-m9G9evWYut9DDo94LQquRCwX_c1V","nonce":"3f343b7ecbcfec0f2361db9d8e025a3a"}
+[2025-04-07 18:41:33] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-07 18:41:33] Database query executed, found rows: 1
+[2025-04-07 18:41:33] Existing user found, logging in
+[2025-04-07 18:41:33] Updating profile picture for user from Auth0
+[2025-04-07 18:41:33] Session vars set, role: patient
+[2025-04-07 18:41:33] Redirecting to user dashboard
+=======
+[2025-04-07 16:58:46] Callback started
+[2025-04-07 16:58:46] URL: /CitySmilesRepo/old/login/auth0callback.php?code=pNc5134zLdOHxnHG-hHbEWWAUWdqkwheH-wMTk_-8nXty&state=3bd9857bc57d7c8dfe9096304bd40ff1
+[2025-04-07 16:58:46] GET params: Array
+(
+    [code] => pNc5134zLdOHxnHG-hHbEWWAUWdqkwheH-wMTk_-8nXty
+    [state] => 3bd9857bc57d7c8dfe9096304bd40ff1
+)
+
+[2025-04-07 16:58:46] Required files loaded
+[2025-04-07 16:58:46] Session started
+[2025-04-07 16:58:46] Initializing Auth0...
+[2025-04-07 16:58:46] Exchanging code for tokens...
+[2025-04-07 16:58:49] Getting user profile...
+[2025-04-07 16:58:49] User info retrieved: {"given_name":"Ivan","family_name":"Sevilla","nickname":"sevilla.jsivn","name":"Ivan Sevilla","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJnVuPWo8i0hPETLtKdOZmMAeHGhwbMvw_qgco_o3NExlfeOhM=s96-c","updated_at":"2025-04-07T14:58:45.530Z","email":"sevilla.jsivn@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|107020396657550549436","iat":1744037928,"exp":1744073928,"sid":"xw9wMCyPFBlu1GL73dI8gan_P_R8g_6c","nonce":"e7cf5dbe2244ef8b6de38f55c5a1bfe6"}
+[2025-04-07 16:58:49] Birthdate from Auth0: Not available
+[2025-04-07 16:58:49] Checking if user exists with email: sevilla.jsivn@gmail.com
+[2025-04-07 16:58:49] Database query executed, found rows: 1
+[2025-04-07 16:58:49] Existing user found, logging in
+[2025-04-07 16:58:49] Updating profile picture for user from Auth0
+[2025-04-07 16:58:49] Session vars set, role: patient
+[2025-04-07 16:58:49] Redirecting to user dashboard
+[2025-04-07 19:20:21] Callback started
+[2025-04-07 19:20:21] URL: /CitySmilesRepo/old/login/auth0callback.php?code=aYXBGkdd4s6-ZPD0asLr673gFrvOEbM1yuccgTBHcS-hT&state=2b761c94b66ab8d16b1ea8c085e3116f
+[2025-04-07 19:20:21] GET params: Array
+(
+    [code] => aYXBGkdd4s6-ZPD0asLr673gFrvOEbM1yuccgTBHcS-hT
+    [state] => 2b761c94b66ab8d16b1ea8c085e3116f
+)
+
+[2025-04-07 19:20:21] Required files loaded
+[2025-04-07 19:20:21] Session started
+[2025-04-07 19:20:21] Initializing Auth0...
+[2025-04-07 19:20:21] Exchanging code for tokens...
+[2025-04-07 19:20:22] Getting user profile...
+[2025-04-07 19:20:22] User info retrieved: {"given_name":"Jones Ivan","family_name":"Sevilla","nickname":"natejay711","name":"Jones Ivan Sevilla","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJmZ0avK4xeQshBD5GqViKDdjCtgtJhXjLUJRL6w7LV-zOFPYLf=s96-c","updated_at":"2025-04-07T17:20:20.663Z","email":"natejay711@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|109640787818093882454","iat":1744046422,"exp":1744082422,"sid":"U6ArvgWsS6S83hgwCMOJX3GpubkNPPHj","nonce":"8af759a49ffa2ea84a5153087b48be79"}
+[2025-04-07 19:20:22] Birthdate from Auth0: Not available
+[2025-04-07 19:20:22] Checking if user exists with email: natejay711@gmail.com
+[2025-04-07 19:20:22] Database query executed, found rows: 1
+[2025-04-07 19:20:22] Existing user found, logging in
+[2025-04-07 19:20:22] Updating profile picture for user from Auth0
+[2025-04-07 19:20:22] Session vars set, role: patient
+[2025-04-07 19:20:22] Redirecting to user dashboard
+[2025-04-07 19:57:26] Callback started
+[2025-04-07 19:57:26] URL: /CitySmilesRepo/old/login/auth0callback.php?code=CHS4xL9-VRhdIXW-ceOgjpM7u8FR7Vvw5hAOkO6yP-A1p&state=a6bdadd762360da52c761623f5aeecf8
+[2025-04-07 19:57:26] GET params: Array
+(
+    [code] => CHS4xL9-VRhdIXW-ceOgjpM7u8FR7Vvw5hAOkO6yP-A1p
+    [state] => a6bdadd762360da52c761623f5aeecf8
+)
+
+[2025-04-07 19:57:26] Required files loaded
+[2025-04-07 19:57:26] Session started
+[2025-04-07 19:57:26] Initializing Auth0...
+[2025-04-07 19:57:26] Exchanging code for tokens...
+[2025-04-07 19:57:27] Getting user profile...
+[2025-04-07 19:57:27] User info retrieved: {"given_name":"Johnny","family_name":"Bravo","nickname":"johnb126097","name":"Johnny Bravo","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocIzlFKZWmSCHzubAAXXXUl5fGwDVf_TM2NfEmMInQR8GLWzOQ=s96-c","updated_at":"2025-04-07T17:57:25.657Z","email":"johnb126097@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|104499289870522594608","iat":1744048646,"exp":1744084646,"sid":"Eqbz7JXouLRjTIiEtN-0Ht_V35BmqTpU","nonce":"8f38017c78e458d096ef75faf70a912c"}
+[2025-04-07 19:57:27] Birthdate from Auth0: Not available
+[2025-04-07 19:57:27] Checking if user exists with email: johnb126097@gmail.com
+[2025-04-07 19:57:27] Database query executed, found rows: 0
+[2025-04-07 19:57:27] New user, registering
+[2025-04-07 19:57:27] Inserting new user: johnb126097326
+[2025-04-07 19:57:27] New user created, ID: 32
+[2025-04-07 19:57:27] Redirecting to profile completion
+[2025-04-07 19:57:56] Callback started
+[2025-04-07 19:57:56] URL: /CitySmilesRepo/old/login/auth0callback.php?code=3CTCgNlN2KFv1sB2gN08XPWKCFGqgVGlWgG2qBmlODv7a&state=df638e8c2cd93127feedec42ce786ff9
+[2025-04-07 19:57:56] GET params: Array
+(
+    [code] => 3CTCgNlN2KFv1sB2gN08XPWKCFGqgVGlWgG2qBmlODv7a
+    [state] => df638e8c2cd93127feedec42ce786ff9
+)
+
+[2025-04-07 19:57:56] Required files loaded
+[2025-04-07 19:57:56] Session started
+[2025-04-07 19:57:56] Initializing Auth0...
+[2025-04-07 19:57:56] Exchanging code for tokens...
+[2025-04-07 19:57:57] Callback started
+[2025-04-07 19:57:57] URL: /CitySmilesRepo/old/login/auth0callback.php?code=ZXU1GXZ48zdBNe91dtL8vpi1YF0ZUGbwA8AO8nT9hIRf_&state=9cb83f224fecf2575bbff14f9ec8a228
+[2025-04-07 19:57:57] GET params: Array
+(
+    [code] => ZXU1GXZ48zdBNe91dtL8vpi1YF0ZUGbwA8AO8nT9hIRf_
+    [state] => 9cb83f224fecf2575bbff14f9ec8a228
+)
+
+[2025-04-07 19:57:57] Required files loaded
+[2025-04-07 19:57:57] Getting user profile...
+[2025-04-07 19:57:57] User info retrieved: {"given_name":"Johnny","family_name":"Bravo","nickname":"johnb126097","name":"Johnny Bravo","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocIzlFKZWmSCHzubAAXXXUl5fGwDVf_TM2NfEmMInQR8GLWzOQ=s96-c","updated_at":"2025-04-07T17:57:25.657Z","email":"johnb126097@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|104499289870522594608","iat":1744048677,"exp":1744084677,"sid":"Eqbz7JXouLRjTIiEtN-0Ht_V35BmqTpU","nonce":"01074741b7980ea16293aac374ad2ec1"}
+[2025-04-07 19:57:57] Birthdate from Auth0: Not available
+[2025-04-07 19:57:57] Checking if user exists with email: johnb126097@gmail.com
+[2025-04-07 19:57:57] Database query executed, found rows: 1
+[2025-04-07 19:57:57] Existing user found, logging in
+[2025-04-07 19:57:57] Updating profile picture for user from Auth0
+[2025-04-07 19:57:57] Session vars set, role: patient
+[2025-04-07 19:57:57] Redirecting to user dashboard
+[2025-04-07 19:57:57] Session started
+[2025-04-07 19:57:57] Initializing Auth0...
+[2025-04-07 19:57:57] Exchanging code for tokens...
+[2025-04-07 19:57:58] Getting user profile...
+[2025-04-07 19:57:58] User info retrieved: {"given_name":"Johnny","family_name":"Bravo","nickname":"johnb126097","name":"Johnny Bravo","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocIzlFKZWmSCHzubAAXXXUl5fGwDVf_TM2NfEmMInQR8GLWzOQ=s96-c","updated_at":"2025-04-07T17:57:25.657Z","email":"johnb126097@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|104499289870522594608","iat":1744048678,"exp":1744084678,"sid":"Eqbz7JXouLRjTIiEtN-0Ht_V35BmqTpU","nonce":"66468bc0ccd718eec6c1bd26939c4349"}
+[2025-04-07 19:57:58] Birthdate from Auth0: Not available
+[2025-04-07 19:57:58] Checking if user exists with email: johnb126097@gmail.com
+[2025-04-07 19:57:58] Database query executed, found rows: 1
+[2025-04-07 19:57:58] Existing user found, logging in
+[2025-04-07 19:57:58] Updating profile picture for user from Auth0
+[2025-04-07 19:57:58] Session vars set, role: patient
+[2025-04-07 19:57:58] Redirecting to user dashboard
+[2025-04-08 16:37:25] Callback started
+[2025-04-08 16:37:25] URL: /CitySmilesRepo/old/login/auth0callback.php?code=t7secZNeoYhar6voRyu8kjLXAgAroP18ZezPwduYJ9iyK&state=067af029aa179863e8fc1e8c06cc1cb4
+[2025-04-08 16:37:25] GET params: Array
+(
+    [code] => t7secZNeoYhar6voRyu8kjLXAgAroP18ZezPwduYJ9iyK
+    [state] => 067af029aa179863e8fc1e8c06cc1cb4
+)
+
+[2025-04-08 16:37:25] Required files loaded
+[2025-04-08 16:37:25] Session started
+[2025-04-08 16:37:25] Initializing Auth0...
+[2025-04-08 16:37:25] Exchanging code for tokens...
+[2025-04-08 16:37:28] Getting user profile...
+[2025-04-08 16:37:28] User info retrieved: {"given_name":"Johnny","family_name":"Bravo","nickname":"johnb126097","name":"Johnny Bravo","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocIzlFKZWmSCHzubAAXXXUl5fGwDVf_TM2NfEmMInQR8GLWzOQ=s96-c","updated_at":"2025-04-07T17:57:25.657Z","email":"johnb126097@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|104499289870522594608","iat":1744123046,"exp":1744159046,"sid":"Eqbz7JXouLRjTIiEtN-0Ht_V35BmqTpU","nonce":"da35e6ce4a97f89a6cee49da2af4d282"}
+[2025-04-08 16:37:28] Birthdate from Auth0: Not available
+[2025-04-08 16:37:28] Checking if user exists with email: johnb126097@gmail.com
+[2025-04-08 16:37:28] Database query executed, found rows: 1
+[2025-04-08 16:37:28] Existing user found, logging in
+[2025-04-08 16:37:28] Updating profile picture for user from Auth0
+[2025-04-08 16:37:28] Session vars set, role: patient
+[2025-04-08 16:37:28] Redirecting to user dashboard
+>>>>>>> Stashed changes
+[2025-04-10 10:28:49] Callback started
+[2025-04-10 10:28:49] URL: /CitySmilesRepo/old/login/auth0callback.php?code=Y33qmA-xo0V_bih5t7aUAkn0U_jl8GR9YM8kkkTkdOCY1&state=769d5de23e5e913bd85c685cfe1cc33a
+[2025-04-10 10:28:49] GET params: Array
+(
+    [code] => Y33qmA-xo0V_bih5t7aUAkn0U_jl8GR9YM8kkkTkdOCY1
+    [state] => 769d5de23e5e913bd85c685cfe1cc33a
+)
+
+[2025-04-11 17:46:54] Callback started
+[2025-04-11 17:46:54] URL: /CitySmilesRepo/old/login/auth0callback.php?code=sKxKpNZD7t7YmrlAt40tOfEOdqN0GO_eMoNsab5hEBcva&state=6d8196c4ae989c9b963b47b14d2d6578
+[2025-04-11 17:46:54] GET params: Array
+(
+    [code] => sKxKpNZD7t7YmrlAt40tOfEOdqN0GO_eMoNsab5hEBcva
+    [state] => 6d8196c4ae989c9b963b47b14d2d6578
+)
+
+[2025-04-11 17:46:54] Required files loaded
+[2025-04-11 17:46:54] Session started
+[2025-04-11 17:46:54] Initializing Auth0...
+[2025-04-11 17:46:54] Exchanging code for tokens...
+[2025-04-11 17:46:55] Getting user profile...
+[2025-04-11 17:46:55] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-11T15:46:53.619Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1744386414,"exp":1744422414,"sid":"JXRkeGDMNgSkdLflQweCCnC_w6nwNRqG","nonce":"ac171262ec663a8314a15556c97cc487"}
+[2025-04-11 17:46:55] Birthdate from Auth0: Not available
+[2025-04-11 17:46:55] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-11 17:46:55] Database query executed, found rows: 1
+[2025-04-11 17:46:55] Existing user found, logging in
+[2025-04-11 17:46:55] Updating profile picture for user from Auth0
+[2025-04-11 17:46:55] Session vars set, role: patient
+[2025-04-11 17:46:55] Redirecting to user dashboard
+[2025-04-11 17:55:18] Callback started
+[2025-04-11 17:55:18] URL: /CitySmilesRepo/old/login/auth0callback.php?code=o0jdPmHkanXfefoObtbwjVoQQSx8sTdU0ZvdqHLx6ukZQ&state=f1684ce1d80596ba93516997e99fbffc
+[2025-04-11 17:55:18] GET params: Array
+(
+    [code] => o0jdPmHkanXfefoObtbwjVoQQSx8sTdU0ZvdqHLx6ukZQ
+    [state] => f1684ce1d80596ba93516997e99fbffc
+)
+
+[2025-04-11 17:55:18] Required files loaded
+[2025-04-11 17:55:18] Session started
+[2025-04-11 17:55:18] Initializing Auth0...
+[2025-04-11 17:55:18] Exchanging code for tokens...
+[2025-04-11 17:55:21] Getting user profile...
+[2025-04-11 17:55:21] User info retrieved: {"given_name":"Christian","family_name":"Francisco","nickname":"franciscochristian262","name":"Christian Francisco","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocJwFsy9-_07Lpbn2mu6mkgZgoBkwTPZlbUX3-k2uAlI_t10XRs4=s96-c","updated_at":"2025-04-11T15:55:18.329Z","email":"franciscochristian262@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|113716522806900878086","iat":1744386920,"exp":1744422920,"sid":"2cF4i67zBc5GKEUis8NW2kSpF9jRTNYG","nonce":"5f463b6dc2c8f8293681917ca2eceb81"}
+[2025-04-11 17:55:21] Birthdate from Auth0: Not available
+[2025-04-11 17:55:21] Checking if user exists with email: franciscochristian262@gmail.com
+[2025-04-11 17:55:21] Database query executed, found rows: 1
+[2025-04-11 17:55:21] Existing user found, logging in
+[2025-04-11 17:55:21] Updating profile picture for user from Auth0
+[2025-04-11 17:55:21] Session vars set, role: patient
+[2025-04-11 17:55:21] Redirecting to user dashboard
+[2025-04-13 11:59:29] Callback started
+[2025-04-13 11:59:29] URL: /CitySmilesRepo/old/login/auth0callback.php?code=Cgn-kUbTRaD32ZnK1bI98i_RmsnUIH4GY5lVOjeZUC6lH&state=edd0c80a1d65abc769d2904b932220fb
+[2025-04-13 11:59:29] GET params: Array
+(
+    [code] => Cgn-kUbTRaD32ZnK1bI98i_RmsnUIH4GY5lVOjeZUC6lH
+    [state] => edd0c80a1d65abc769d2904b932220fb
+)
+
+[2025-04-13 11:59:29] Required files loaded
+[2025-04-13 11:59:29] Session started
+[2025-04-13 11:59:29] Initializing Auth0...
+[2025-04-13 11:59:29] Exchanging code for tokens...
+[2025-04-13 11:59:30] Getting user profile...
+[2025-04-13 11:59:30] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-04-13T09:59:30.032Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1744538371,"exp":1744574371,"sid":"CDKTkiz5A3iRJ0I9bBmaS-6pGYV6nkRq","nonce":"4f8dbf884492f96968f52866190f7be1"}
+[2025-04-13 11:59:30] Birthdate from Auth0: Not available
+[2025-04-13 11:59:30] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-04-13 11:59:30] Database query executed, found rows: 1
+[2025-04-13 11:59:30] Existing user found, logging in
+[2025-04-13 11:59:30] Updating profile picture for user from Auth0
+[2025-04-13 11:59:30] Session vars set, role: patient
+[2025-04-13 11:59:30] Redirecting to user dashboard
+[2025-04-13 12:50:22] Callback started
+[2025-04-13 12:50:22] URL: /CitySmilesRepo/old/login/auth0callback.php?code=jqsg3AVjy4Gu5dg-YZbNFw-1iOGBvxljhSJzOG8hfhCMu&state=f7ae1d53cb252afeaa0e9593b5dc3e54
+[2025-04-13 12:50:22] GET params: Array
+(
+    [code] => jqsg3AVjy4Gu5dg-YZbNFw-1iOGBvxljhSJzOG8hfhCMu
+    [state] => f7ae1d53cb252afeaa0e9593b5dc3e54
+)
+
+[2025-04-13 12:50:22] Required files loaded
+[2025-04-13 12:50:22] Session started
+[2025-04-13 12:50:22] Initializing Auth0...
+[2025-04-13 12:50:22] Exchanging code for tokens...
+[2025-04-13 12:50:23] Getting user profile...
+[2025-04-13 12:50:23] User info retrieved: {"given_name":"Anas Mohammad","family_name":"Demonteverde","nickname":"anasdemonteverde","name":"Anas Mohammad Demonteverde","picture":"https:\/\/lh3.googleusercontent.com\/a\/ACg8ocL2ux1nagnZiMHUmVN7lamb7cs3VHt6kouXRsESBp3encMgRX3F=s96-c","updated_at":"2025-04-13T10:50:22.741Z","email":"anasdemonteverde@gmail.com","email_verified":true,"iss":"https:\/\/dev-085w8jk3u1noiaiw.us.auth0.com\/","aud":"khpO3Yxz1nvVbbuR4aQVL0aUkRaJ2CJD","sub":"google-oauth2|102145092424866402319","iat":1744541423,"exp":1744577423,"sid":"5o-3SDrVUmZ2BUUyhORhOfbB_GP0Wee7","nonce":"fe899f85df255c598b7965353b85c01a"}
+[2025-04-13 12:50:23] Birthdate from Auth0: Not available
+[2025-04-13 12:50:23] Checking if user exists with email: anasdemonteverde@gmail.com
+[2025-04-13 12:50:23] Database query executed, found rows: 1
+[2025-04-13 12:50:23] Existing user found, logging in
+[2025-04-13 12:50:23] Updating profile picture for user from Auth0
+[2025-04-13 12:50:23] Session vars set, role: patient
+[2025-04-13 12:50:23] Redirecting to user dashboard
