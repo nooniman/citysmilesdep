@@ -1,0 +1,12 @@
+{
+    "require": {
+        "auth0/auth0-php": "8.6",
+        "nyholm/psr7": "^1.8",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

@@ -1,0 +1,23 @@
+/* base.css */
+:root {
+    /* Define your color variables here for consistency */
+    --primary-green: #3cb371;
+    --light-green: #9aeaa1;
+    --dark-green: #297859;
+    --primary-lilac: #9d7ded;
+    --light-lilac: #e0d4f9;
+    --dark-lilac: #7B32AB;
+  }
+  
+  /* Set reasonable defaults without aggressive global resets */
+  body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+  }
+  
+  /* Common utility classes for your app */
+  .container {
+    padding: 15px;
+  }
