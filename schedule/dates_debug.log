@@ -1,0 +1,132 @@
+[2025-03-24 20:41:59] Request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"5"}
+[2025-03-24 20:41:59] Parameters: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=5
+[2025-03-24 20:42:05] Request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"20","service_id":"5"}
+[2025-03-24 20:42:05] Parameters: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=20, service_id=5
+[2025-03-24 20:44:05] Request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"2"}
+[2025-03-24 20:44:05] Parameters: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=2
+[2025-03-24 20:44:06] Request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"20","service_id":"2"}
+[2025-03-24 20:44:06] Parameters: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=20, service_id=2
+[2025-03-24 20:54:43] Request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"6"}
+[2025-03-24 20:54:43] Parameters: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=6
+[2025-03-24 20:54:44] Request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"20","service_id":"6"}
+[2025-03-24 20:54:44] Parameters: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=20, service_id=6
+[2025-03-24 21:02:27] GET request: {"start":"2025-02-22","end":"2025-04-05","dentist_id":"20","service_id":"2"}
+[2025-03-24 21:02:27] Processing: start=2025-02-22, end=2025-04-05, dentist_id=20, service_id=2
+[2025-03-24 21:02:27] Available days: 1,3,5
+[2025-03-24 21:02:27] Found 6 available dates
+[2025-03-24 21:06:23] GET request: {"start":"2025-02-22","end":"2025-04-05","dentist_id":"20","service_id":"5"}
+[2025-03-24 21:06:23] Processing: start=2025-02-22, end=2025-04-05, dentist_id=20, service_id=5
+[2025-03-24 21:06:23] Available days: 1,3,5
+[2025-03-24 21:06:23] Found 6 available dates
+[2025-03-24 21:10:30] GET request: {"start":"2025-02-22","end":"2025-04-05","dentist_id":"20","service_id":"5"}
+[2025-03-24 21:10:30] Processing: start=2025-02-22, end=2025-04-05, dentist_id=20, service_id=5
+[2025-03-24 21:10:30] Available days: 1,3,5
+[2025-03-24 21:10:30] Found 6 available dates
+[2025-03-24 21:11:40] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"1"}
+[2025-03-24 21:11:40] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=1
+[2025-03-24 21:11:40] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-24 21:11:41] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"20","service_id":"1"}
+[2025-03-24 21:11:41] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=20, service_id=1
+[2025-03-24 21:11:41] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-24 21:15:28] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"2"}
+[2025-03-24 21:15:28] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=2
+[2025-03-24 21:15:28] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-24 21:15:29] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"20","service_id":"2"}
+[2025-03-24 21:15:29] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=20, service_id=2
+[2025-03-24 21:15:29] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-24 21:18:37] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"2"}
+[2025-03-24 21:18:37] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=2
+[2025-03-24 21:18:37] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-24 21:18:39] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"20","service_id":"2"}
+[2025-03-24 21:18:39] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=20, service_id=2
+[2025-03-24 21:18:39] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 13:58:14] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"5"}
+[2025-03-27 13:58:14] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=5
+[2025-03-27 13:58:14] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 13:58:17] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"4","service_id":"5"}
+[2025-03-27 13:58:17] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=4, service_id=5
+[2025-03-27 13:58:17] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 13:58:20] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"12","service_id":"5"}
+[2025-03-27 13:58:20] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=12, service_id=5
+[2025-03-27 13:58:20] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 13:58:23] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"4","service_id":"5"}
+[2025-03-27 13:58:23] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=4, service_id=5
+[2025-03-27 13:58:23] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 13:59:02] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"4","service_id":"5"}
+[2025-03-27 13:59:02] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=4, service_id=5
+[2025-03-27 13:59:02] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 14:18:44] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"2"}
+[2025-03-27 14:18:44] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=2
+[2025-03-27 14:18:44] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 14:18:47] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"12","service_id":"2"}
+[2025-03-27 14:18:47] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=12, service_id=2
+[2025-03-27 14:18:47] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 15:20:01] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"5"}
+[2025-03-27 15:20:01] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=5
+[2025-03-27 15:20:01] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 15:20:03] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"4","service_id":"5"}
+[2025-03-27 15:20:03] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=4, service_id=5
+[2025-03-27 15:20:03] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 15:21:12] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"12","service_id":"5"}
+[2025-03-27 15:21:12] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=12, service_id=5
+[2025-03-27 15:21:12] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 15:46:30] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"6"}
+[2025-03-27 15:46:30] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=6
+[2025-03-27 15:46:30] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 15:46:32] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"12","service_id":"6"}
+[2025-03-27 15:46:32] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=12, service_id=6
+[2025-03-27 15:46:32] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:14:02] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"6"}
+[2025-03-27 17:14:02] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=6
+[2025-03-27 17:14:02] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:14:05] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"4","service_id":"6"}
+[2025-03-27 17:14:05] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=4, service_id=6
+[2025-03-27 17:14:05] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:14:10] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"12","service_id":"6"}
+[2025-03-27 17:14:10] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=12, service_id=6
+[2025-03-27 17:14:10] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:14:24] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"4","service_id":"6"}
+[2025-03-27 17:14:24] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=4, service_id=6
+[2025-03-27 17:14:24] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:14:55] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"4","service_id":"6"}
+[2025-03-27 17:14:55] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=4, service_id=6
+[2025-03-27 17:14:55] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:15:22] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"4","service_id":"6"}
+[2025-03-27 17:15:22] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=4, service_id=6
+[2025-03-27 17:15:22] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:16:06] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"4","service_id":"6"}
+[2025-03-27 17:16:06] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=4, service_id=6
+[2025-03-27 17:16:06] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:19:03] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"","service_id":"1"}
+[2025-03-27 17:19:03] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=0, service_id=1
+[2025-03-27 17:19:03] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:19:09] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"4","service_id":"1"}
+[2025-03-27 17:19:09] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=4, service_id=1
+[2025-03-27 17:19:09] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:20:40] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"12","service_id":"1"}
+[2025-03-27 17:20:40] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=12, service_id=1
+[2025-03-27 17:20:40] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:20:53] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"2"}
+[2025-03-27 17:20:53] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=2
+[2025-03-27 17:20:53] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:20:55] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"12","service_id":"2"}
+[2025-03-27 17:20:55] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=12, service_id=2
+[2025-03-27 17:20:55] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:21:01] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"7"}
+[2025-03-27 17:21:01] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=0, service_id=7
+[2025-03-27 17:21:01] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-03-27 17:21:03] GET request: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"12","service_id":"7"}
+[2025-03-27 17:21:03] Processing: start=2025-02-23T00:00:00 08:00, end=2025-04-06T00:00:00 08:00, dentist_id=12, service_id=7
+[2025-03-27 17:21:03] ERROR: Failed to parse time string (2025-02-23T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-04-01 06:03:08] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"","service_id":"5"}
+[2025-04-01 06:03:08] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=0, service_id=5
+[2025-04-01 06:03:08] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-04-01 06:03:10] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"12","service_id":"5"}
+[2025-04-01 06:03:10] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=12, service_id=5
+[2025-04-01 06:03:10] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-04-01 06:36:12] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"","service_id":"5"}
+[2025-04-01 06:36:12] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=0, service_id=5
+[2025-04-01 06:36:12] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification
+[2025-04-01 06:36:15] GET request: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"12","service_id":"5"}
+[2025-04-01 06:36:15] Processing: start=2025-03-30T00:00:00 08:00, end=2025-05-11T00:00:00 08:00, dentist_id=12, service_id=5
+[2025-04-01 06:36:15] ERROR: Failed to parse time string (2025-03-30T00:00:00 08:00) at position 20 (0): Double time specification

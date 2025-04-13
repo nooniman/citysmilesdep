@@ -1,0 +1,344 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 1.25em; /* 20px */
+    border: 1px solid #000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 0.9375em; /* 15px */
+    border-radius: 10px;
+}
+
+#schedule-text h1 {
+    text-align: left;              
+    font-weight: lighter;       
+    font-size: 3em;               
+    color: black;                  
+    margin: 0;  
+    margin-top: 1vw;                   
+}
+
+.addsched-button {
+    background-color: #000069;    
+    color: white;
+    padding: 0.625em 1.25em; /* 10px 20px */
+    border: none;                  
+    border-radius: 0.3125em; /* 5px */
+    cursor: pointer;               
+}
+
+.addsched-button:hover {
+    background-color: #45a049;     
+}
+
+.text-schedule h1 {
+    margin: 0;                     
+    font-size: 1.5em;               
+    font-weight: lighter;
+}
+
+/* Button Containers */
+.addschedule-container {
+    margin-left: auto;
+}
+
+/* Buttons */
+.add_walkin-button, 
+.addschedule-button {
+    background-color: #000069;
+    color: white;
+    padding: 0.625em 1.25em; /* 10px 20px */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add_walkin-button:hover, 
+.addschedule-button:hover {
+    background-color: #45a049;
+}
+
+/* Main Container */
+.container {
+    background-color: white;
+    padding: 1.25em; /* 20px */
+    border: 1px solid #000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This spreads elements apart */
+    width: 100%;
+    background-color: white;
+    padding: 1.25em;
+    border: 1px solid #000;
+    box-shadow: 0 0.3125em 0.3125em rgba(0, 0, 0, 0.1);
+    margin-top: 0.9375em;
+    box-sizing: border-box;
+}
+
+.head {
+    width: 25%;
+    max-width: 40%;
+    height: 2.5em;
+    padding: 1%;
+    font-size: 1vw;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0 auto; 
+    display: block;
+    margin-left: 63.3%;
+}
+
+/* Export Buttons */
+.export-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.25em; /* 20px */
+}
+
+.export {
+    background-color: #000069;     
+    color: white;
+    padding: 0.625em 1.25em; /* 10px 20px */
+    border: none;
+    border-radius: 0.3125em; /* 5px */
+    cursor: pointer;
+}
+
+.export:hover {
+    background-color: #45a049;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+.table-container {
+    width: 100%;
+    margin-top: 1.5em;
+}
+th, td {
+    padding: 0.625em; /* 10px */
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+th {
+    background-color: #CEFCD7;  
+}
+
+.image-container {
+    width: 3.125em; /* 50px / 16px */
+    height: 3.125em; /* 50px / 16px */
+    border-radius: 50%;           
+    overflow: hidden;             
+    display: flex;                
+    align-items: center;          
+    justify-content: center;      
+    border: 0.125em solid black; /* 2px */  
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+button.view, 
+button.edit, 
+button.delete {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Individual Button Styles */
+button.view {
+    background-color: lightslategrey;
+}
+
+button.view:hover {
+    background-color: rgb(70, 101, 133);
+}
+
+button.edit {
+    background-color: #007BFF;
+}
+
+button.edit:hover {
+    background-color: #0056b3;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Modal styling fixes */
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-modal .modal-content {
+    background-color: white !important;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: modalSlideIn 0.3s ease;
+}
+
+@keyframes modalSlideIn {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e9ecef;
+    position: relative;
+}
+
+.modal-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.modal-body {
+    padding: 20px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.modal-footer {
+    padding: 15px 20px;
+    border-top: 1px solid #e9ecef;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#editExceptionModal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+#editExceptionModal.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#editExceptionModal .modal-content {
+    background-color: white !important; /* Force white background */
+    margin: 5% auto !important;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: modalSlideIn 0.3s ease;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+/* Ensure all modals have consistent styling */
+.custom-modal.show {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Override any conflicting styles */
+#editExceptionModal.custom-modal {
+    display: none;
+}
+
+#editExceptionModal.custom-modal.show {
+    display: flex !important;
+}
+
+/* Fix for modal close buttons */
+.modal-close-btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 5px;
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: opacity 0.2s;
+}
+
+.modal-close-btn:hover {
+    opacity: 0.7;
+}
+
+/* Fix for form controls inside modals */
+.custom-modal .form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.custom-modal .form-control:focus {
+    border-color: #9d7ded;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(157, 125, 237, 0.25);
+}
+
+.custom-modal .form-label {
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.custom-modal .form-group {
+    margin-bottom: 16px;
+}

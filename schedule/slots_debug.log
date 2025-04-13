@@ -1,0 +1,724 @@
+[2025-03-24 20:28:10] GET: {"date":"2025-03-31","dentist_id":"20","service_id":"5","_":"1742844490411"}
+[2025-03-24 20:28:10] Processing: date=2025-03-31, service_id=5, dentist_id=20
+[2025-03-24 20:28:10] Service ID: 5, Duration: 60 minutes
+[2025-03-24 20:28:10] Query: SELECT 
+                     da.user_id, da.start_time, da.end_time, da.is_available, da.max_appointments
+                     FROM dentist_availability da 
+                     WHERE da.user_id = ? AND da.day_of_week = ?
+[2025-03-24 20:28:10] Schedule Results: 1 rows
+[2025-03-24 20:32:50] Request: {"date":"2025-03-31","dentist_id":"20","service_id":"5","_":"1742844770548"}
+[2025-03-24 20:32:50] Calculating for date: 2025-03-31 (day of week: 1)
+[2025-03-24 20:32:50] Service ID: 5, Duration: 60 minutes
+[2025-03-24 20:32:50] Availability query: SELECT da.*, u.first_name, u.last_name 
+                      FROM dentist_availability da
+                      JOIN users u ON da.user_id = u.id
+                      WHERE da.day_of_week = ? 
+                      AND da.is_available = 1 
+                      AND da.user_id = 20
+[2025-03-24 20:32:50] Found 1 available dentists
+[2025-03-24 20:32:50] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 20:32:50] Hours: 08:00 - 15:00, Max: 5
+[2025-03-24 20:38:12] Request: {"date":"2025-03-31","dentist_id":"20","service_id":"5","_":"1742845092377"}
+[2025-03-24 20:38:12] Calculating for date: 2025-03-31 (day of week: 1)
+[2025-03-24 20:38:12] Service ID: 5, Duration: 60 minutes
+[2025-03-24 20:38:12] Availability query: SELECT da.*, u.first_name, u.last_name 
+                      FROM dentist_availability da
+                      JOIN users u ON da.user_id = u.id
+                      WHERE da.day_of_week = ? 
+                      AND da.is_available = 1 
+                      AND da.user_id = 20
+[2025-03-24 20:38:12] Found 1 available dentists
+[2025-03-24 20:38:12] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 20:38:12] Hours: 08:00 - 15:00, Max: 5
+[2025-03-24 20:42:10] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"5","_":"1742845330316"}
+[2025-03-24 20:42:10] Parameters: date=2025-03-31, service_id=5, dentist_id=20
+[2025-03-24 20:42:10] Day of week: 1
+[2025-03-24 20:42:10] Service duration: 60 minutes
+[2025-03-24 20:42:10] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 20:42:10] Results: 1 rows
+[2025-03-24 20:42:10] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 20:42:10] Hours: 08:00 - 15:00
+[2025-03-24 20:42:10] ERROR: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 20:44:08] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"2","_":"1742845448655"}
+[2025-03-24 20:44:08] Parameters: date=2025-03-31, service_id=2, dentist_id=20
+[2025-03-24 20:44:08] Day of week: 1
+[2025-03-24 20:44:08] Service duration: 60 minutes
+[2025-03-24 20:44:08] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 20:44:08] Results: 1 rows
+[2025-03-24 20:44:08] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 20:44:08] Hours: 08:00 - 15:00
+[2025-03-24 20:44:08] ERROR: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 20:54:47] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"6","_":"1742846087519"}
+[2025-03-24 20:54:47] Parameters: date=2025-03-31, service_id=6, dentist_id=20
+[2025-03-24 20:54:47] Day of week: 1
+[2025-03-24 20:54:47] Service duration: 60 minutes
+[2025-03-24 20:54:47] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 20:54:47] Results: 1 rows
+[2025-03-24 20:54:47] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 20:54:47] Hours: 08:00 - 15:00
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 08:00 AM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 08:30 AM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 09:00 AM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 09:30 AM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 10:00 AM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 10:30 AM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 11:00 AM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 11:30 AM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 12:00 PM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 12:30 PM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 01:00 PM, available: yes
+[2025-03-24 20:54:47] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 20:54:47] Added slot: 01:30 PM, available: yes
+[2025-03-24 20:54:47] ERROR: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"2"}
+[2025-03-24 21:02:31] Parameters: date=2025-03-31, service_id=2, dentist_id=20
+[2025-03-24 21:02:31] Day of week: 1
+[2025-03-24 21:02:31] Service duration: 60 minutes
+[2025-03-24 21:02:31] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 21:02:31] Results: 1 rows
+[2025-03-24 21:02:31] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 21:02:31] Hours: 08:00 - 15:00
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 08:00 AM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 08:30 AM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 09:00 AM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 09:30 AM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 10:00 AM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 10:30 AM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 11:00 AM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 11:30 AM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 12:00 PM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 12:30 PM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 01:00 PM, available: yes
+[2025-03-24 21:02:31] Error checking bookings: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:02:31] Added slot: 01:30 PM, available: yes
+[2025-03-24 21:02:31] ERROR: Unknown column 'user_id' in 'where clause'
+[2025-03-24 21:06:31] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"5"}
+[2025-03-24 21:06:31] Parameters: date=2025-03-31, service_id=5, dentist_id=20
+[2025-03-24 21:06:31] Day of week: 1
+[2025-03-24 21:06:31] Service duration: 60 minutes
+[2025-03-24 21:06:31] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 21:06:31] Results: 1 rows
+[2025-03-24 21:06:31] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 21:06:31] Hours: 08:00 - 15:00
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 08:00 AM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 08:30 AM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 09:00 AM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 09:30 AM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 10:00 AM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 10:30 AM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 11:00 AM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 11:30 AM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 12:00 PM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 12:30 PM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 01:00 PM, available: yes
+[2025-03-24 21:06:31] Error checking bookings: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:06:31] Added slot: 01:30 PM, available: yes
+[2025-03-24 21:06:31] ERROR: Unknown column 'dentist_id' in 'where clause'
+[2025-03-24 21:10:32] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"5"}
+[2025-03-24 21:10:32] Parameters: date=2025-03-31, service_id=5, dentist_id=20
+[2025-03-24 21:10:32] Day of week: 1
+[2025-03-24 21:10:32] Service duration: 60 minutes
+[2025-03-24 21:10:32] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 21:10:32] Results: 1 rows
+[2025-03-24 21:10:32] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 21:10:32] Hours: 08:00 - 15:00
+[2025-03-24 21:10:32] Added slot: 08:00 AM, available: yes
+[2025-03-24 21:10:32] Added slot: 08:30 AM, available: yes
+[2025-03-24 21:10:32] Added slot: 09:00 AM, available: yes
+[2025-03-24 21:10:32] Added slot: 09:30 AM, available: yes
+[2025-03-24 21:10:32] Added slot: 10:00 AM, available: yes
+[2025-03-24 21:10:32] Added slot: 10:30 AM, available: yes
+[2025-03-24 21:10:32] Added slot: 11:00 AM, available: yes
+[2025-03-24 21:10:32] Added slot: 11:30 AM, available: yes
+[2025-03-24 21:10:32] Added slot: 12:00 PM, available: yes
+[2025-03-24 21:10:32] Added slot: 12:30 PM, available: yes
+[2025-03-24 21:10:32] Added slot: 01:00 PM, available: yes
+[2025-03-24 21:10:32] Added slot: 01:30 PM, available: yes
+[2025-03-24 21:10:32] Total slots: 12
+[2025-03-24 21:11:44] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"1","_":"1742847104803"}
+[2025-03-24 21:11:44] Parameters: date=2025-03-31, service_id=1, dentist_id=20
+[2025-03-24 21:11:44] Day of week: 1
+[2025-03-24 21:11:44] Service duration: 60 minutes
+[2025-03-24 21:11:44] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 21:11:44] Results: 1 rows
+[2025-03-24 21:11:44] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 21:11:44] Hours: 08:00 - 15:00
+[2025-03-24 21:11:44] Added slot: 08:00 AM, available: yes
+[2025-03-24 21:11:44] Added slot: 08:30 AM, available: yes
+[2025-03-24 21:11:44] Added slot: 09:00 AM, available: yes
+[2025-03-24 21:11:44] Added slot: 09:30 AM, available: yes
+[2025-03-24 21:11:44] Added slot: 10:00 AM, available: yes
+[2025-03-24 21:11:44] Added slot: 10:30 AM, available: yes
+[2025-03-24 21:11:44] Added slot: 11:00 AM, available: yes
+[2025-03-24 21:11:44] Added slot: 11:30 AM, available: yes
+[2025-03-24 21:11:44] Added slot: 12:00 PM, available: yes
+[2025-03-24 21:11:44] Added slot: 12:30 PM, available: yes
+[2025-03-24 21:11:44] Added slot: 01:00 PM, available: yes
+[2025-03-24 21:11:44] Added slot: 01:30 PM, available: yes
+[2025-03-24 21:11:44] Total slots: 12
+[2025-03-24 21:15:31] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"2","_":"1742847331026"}
+[2025-03-24 21:15:31] Parameters: date=2025-03-31, service_id=2, dentist_id=20
+[2025-03-24 21:15:31] Day of week: 1
+[2025-03-24 21:15:31] Service duration: 60 minutes
+[2025-03-24 21:15:31] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 21:15:31] Results: 1 rows
+[2025-03-24 21:15:31] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 21:15:31] Hours: 08:00 - 15:00
+[2025-03-24 21:15:31] Added slot: 08:00 AM, available: yes
+[2025-03-24 21:15:31] Added slot: 08:30 AM, available: yes
+[2025-03-24 21:15:31] Added slot: 09:00 AM, available: yes
+[2025-03-24 21:15:31] Added slot: 09:30 AM, available: yes
+[2025-03-24 21:15:31] Added slot: 10:00 AM, available: yes
+[2025-03-24 21:15:31] Added slot: 10:30 AM, available: yes
+[2025-03-24 21:15:31] Added slot: 11:00 AM, available: yes
+[2025-03-24 21:15:31] Added slot: 11:30 AM, available: yes
+[2025-03-24 21:15:31] Added slot: 12:00 PM, available: yes
+[2025-03-24 21:15:31] Added slot: 12:30 PM, available: yes
+[2025-03-24 21:15:31] Added slot: 01:00 PM, available: yes
+[2025-03-24 21:15:31] Added slot: 01:30 PM, available: yes
+[2025-03-24 21:15:31] Total slots: 12
+[2025-03-24 21:18:44] GET request: {"date":"2025-03-31","dentist_id":"20","service_id":"2","_":"1742847524695"}
+[2025-03-24 21:18:44] Parameters: date=2025-03-31, service_id=2, dentist_id=20
+[2025-03-24 21:18:44] Day of week: 1
+[2025-03-24 21:18:44] Service duration: 60 minutes
+[2025-03-24 21:18:44] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-24 21:18:44] Results: 1 rows
+[2025-03-24 21:18:44] Processing dentist ID 20: Anas Mohammad Demonteverde
+[2025-03-24 21:18:44] Hours: 08:00 - 15:00
+[2025-03-24 21:18:44] Added slot: 08:00 AM, available: yes
+[2025-03-24 21:18:44] Added slot: 08:30 AM, available: yes
+[2025-03-24 21:18:44] Added slot: 09:00 AM, available: yes
+[2025-03-24 21:18:44] Added slot: 09:30 AM, available: yes
+[2025-03-24 21:18:44] Added slot: 10:00 AM, available: yes
+[2025-03-24 21:18:44] Added slot: 10:30 AM, available: yes
+[2025-03-24 21:18:44] Added slot: 11:00 AM, available: yes
+[2025-03-24 21:18:44] Added slot: 11:30 AM, available: yes
+[2025-03-24 21:18:44] Added slot: 12:00 PM, available: yes
+[2025-03-24 21:18:44] Added slot: 12:30 PM, available: yes
+[2025-03-24 21:18:44] Added slot: 01:00 PM, available: yes
+[2025-03-24 21:18:44] Added slot: 01:30 PM, available: yes
+[2025-03-24 21:18:44] Total slots: 12
+[2025-03-27 13:58:30] GET request: {"date":"2025-03-28","dentist_id":"4","service_id":"5","_":"1743080310766"}
+[2025-03-27 13:58:30] Parameters: date=2025-03-28, service_id=5, dentist_id=4
+[2025-03-27 13:58:30] Day of week: 5
+[2025-03-27 13:58:30] Service duration: 30 minutes
+[2025-03-27 13:58:30] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 13:58:30] Results: 0 rows
+[2025-03-27 13:58:30] Total slots: 0
+[2025-03-27 13:58:47] GET request: {"date":"2025-03-30","dentist_id":"4","service_id":"5","_":"1743080327369"}
+[2025-03-27 13:58:47] Parameters: date=2025-03-30, service_id=5, dentist_id=4
+[2025-03-27 13:58:47] Day of week: 0
+[2025-03-27 13:58:47] Service duration: 30 minutes
+[2025-03-27 13:58:47] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 13:58:47] Results: 0 rows
+[2025-03-27 13:58:47] Total slots: 0
+[2025-03-27 13:58:48] GET request: {"date":"2025-03-31","dentist_id":"4","service_id":"5","_":"1743080328148"}
+[2025-03-27 13:58:48] Parameters: date=2025-03-31, service_id=5, dentist_id=4
+[2025-03-27 13:58:48] Day of week: 1
+[2025-03-27 13:58:48] Service duration: 30 minutes
+[2025-03-27 13:58:48] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 13:58:48] Results: 0 rows
+[2025-03-27 13:58:48] Total slots: 0
+[2025-03-27 13:58:52] GET request: {"date":"2025-03-30","dentist_id":"4","service_id":"5","_":"1743080332852"}
+[2025-03-27 13:58:52] Parameters: date=2025-03-30, service_id=5, dentist_id=4
+[2025-03-27 13:58:52] Day of week: 0
+[2025-03-27 13:58:52] Service duration: 30 minutes
+[2025-03-27 13:58:52] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 13:58:52] Results: 0 rows
+[2025-03-27 13:58:52] Total slots: 0
+[2025-03-27 13:58:57] GET request: {"date":"2025-03-31","dentist_id":"4","service_id":"5","_":"1743080337734"}
+[2025-03-27 13:58:57] Parameters: date=2025-03-31, service_id=5, dentist_id=4
+[2025-03-27 13:58:57] Day of week: 1
+[2025-03-27 13:58:57] Service duration: 30 minutes
+[2025-03-27 13:58:57] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 13:58:57] Results: 0 rows
+[2025-03-27 13:58:57] Total slots: 0
+[2025-03-27 13:59:03] GET request: {"date":"2025-04-01","dentist_id":"4","service_id":"5","_":"1743080343828"}
+[2025-03-27 13:59:03] Parameters: date=2025-04-01, service_id=5, dentist_id=4
+[2025-03-27 13:59:03] Day of week: 2
+[2025-03-27 13:59:03] Service duration: 30 minutes
+[2025-03-27 13:59:03] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 13:59:03] Results: 0 rows
+[2025-03-27 13:59:03] Total slots: 0
+[2025-03-27 13:59:10] GET request: {"date":"2025-03-31","dentist_id":"4","service_id":"5","_":"1743080350562"}
+[2025-03-27 13:59:10] Parameters: date=2025-03-31, service_id=5, dentist_id=4
+[2025-03-27 13:59:10] Day of week: 1
+[2025-03-27 13:59:10] Service duration: 30 minutes
+[2025-03-27 13:59:10] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 13:59:10] Results: 0 rows
+[2025-03-27 13:59:10] Total slots: 0
+[2025-03-27 14:18:52] GET request: {"date":"2025-03-31","dentist_id":"12","service_id":"2","_":"1743081532507"}
+[2025-03-27 14:18:52] Parameters: date=2025-03-31, service_id=2, dentist_id=12
+[2025-03-27 14:18:52] Day of week: 1
+[2025-03-27 14:18:52] Service duration: 30 minutes
+[2025-03-27 14:18:52] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 14:18:52] Results: 1 rows
+[2025-03-27 14:18:52] Processing dentist ID 12: Juan Reyes
+[2025-03-27 14:18:52] Hours: 08:00 - 15:00
+[2025-03-27 14:18:52] Added slot: 08:00 AM, available: yes
+[2025-03-27 14:18:52] Added slot: 08:30 AM, available: yes
+[2025-03-27 14:18:52] Added slot: 09:00 AM, available: yes
+[2025-03-27 14:18:52] Added slot: 09:30 AM, available: yes
+[2025-03-27 14:18:52] Added slot: 10:00 AM, available: yes
+[2025-03-27 14:18:52] Added slot: 10:30 AM, available: yes
+[2025-03-27 14:18:52] Added slot: 11:00 AM, available: yes
+[2025-03-27 14:18:52] Added slot: 11:30 AM, available: yes
+[2025-03-27 14:18:52] Added slot: 12:00 PM, available: yes
+[2025-03-27 14:18:52] Added slot: 12:30 PM, available: yes
+[2025-03-27 14:18:52] Added slot: 01:00 PM, available: yes
+[2025-03-27 14:18:52] Added slot: 01:30 PM, available: yes
+[2025-03-27 14:18:52] Added slot: 02:00 PM, available: yes
+[2025-03-27 14:18:52] Total slots: 13
+[2025-03-27 15:20:05] GET request: {"date":"2025-03-31","dentist_id":"4","service_id":"5","_":"1743085205657"}
+[2025-03-27 15:20:05] Parameters: date=2025-03-31, service_id=5, dentist_id=4
+[2025-03-27 15:20:05] Day of week: 1
+[2025-03-27 15:20:05] Service duration: 30 minutes
+[2025-03-27 15:20:05] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 15:20:05] Results: 0 rows
+[2025-03-27 15:20:05] Total slots: 0
+[2025-03-27 15:21:13] GET request: {"date":"2025-03-31","dentist_id":"12","service_id":"5","_":"1743085273984"}
+[2025-03-27 15:21:13] Parameters: date=2025-03-31, service_id=5, dentist_id=12
+[2025-03-27 15:21:13] Day of week: 1
+[2025-03-27 15:21:13] Service duration: 30 minutes
+[2025-03-27 15:21:13] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 15:21:13] Results: 1 rows
+[2025-03-27 15:21:13] Processing dentist ID 12: Juan Reyes
+[2025-03-27 15:21:13] Hours: 08:00 - 15:00
+[2025-03-27 15:21:13] Added slot: 08:00 AM, available: no
+[2025-03-27 15:21:13] Added slot: 08:30 AM, available: yes
+[2025-03-27 15:21:13] Added slot: 09:00 AM, available: yes
+[2025-03-27 15:21:13] Added slot: 09:30 AM, available: yes
+[2025-03-27 15:21:13] Added slot: 10:00 AM, available: yes
+[2025-03-27 15:21:13] Added slot: 10:30 AM, available: yes
+[2025-03-27 15:21:13] Added slot: 11:00 AM, available: yes
+[2025-03-27 15:21:13] Added slot: 11:30 AM, available: yes
+[2025-03-27 15:21:13] Added slot: 12:00 PM, available: yes
+[2025-03-27 15:21:13] Added slot: 12:30 PM, available: yes
+[2025-03-27 15:21:13] Added slot: 01:00 PM, available: yes
+[2025-03-27 15:21:13] Added slot: 01:30 PM, available: yes
+[2025-03-27 15:21:13] Added slot: 02:00 PM, available: yes
+[2025-03-27 15:21:13] Total slots: 13
+[2025-03-27 15:46:33] GET request: {"date":"2025-03-31","dentist_id":"12","service_id":"6","_":"1743086794069"}
+[2025-03-27 15:46:33] Parameters: date=2025-03-31, service_id=6, dentist_id=12
+[2025-03-27 15:46:33] Day of week: 1
+[2025-03-27 15:46:33] Service duration: 30 minutes
+[2025-03-27 15:46:33] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 15:46:33] Results: 1 rows
+[2025-03-27 15:46:33] Processing dentist ID 12: Juan Reyes
+[2025-03-27 15:46:33] Hours: 08:00 - 15:00
+[2025-03-27 15:46:33] Added slot: 08:00 AM, available: no
+[2025-03-27 15:46:33] Added slot: 08:30 AM, available: yes
+[2025-03-27 15:46:33] Added slot: 09:00 AM, available: yes
+[2025-03-27 15:46:33] Added slot: 09:30 AM, available: yes
+[2025-03-27 15:46:33] Added slot: 10:00 AM, available: yes
+[2025-03-27 15:46:33] Added slot: 10:30 AM, available: yes
+[2025-03-27 15:46:33] Added slot: 11:00 AM, available: yes
+[2025-03-27 15:46:33] Added slot: 11:30 AM, available: yes
+[2025-03-27 15:46:33] Added slot: 12:00 PM, available: yes
+[2025-03-27 15:46:33] Added slot: 12:30 PM, available: yes
+[2025-03-27 15:46:33] Added slot: 01:00 PM, available: yes
+[2025-03-27 15:46:33] Added slot: 01:30 PM, available: yes
+[2025-03-27 15:46:33] Added slot: 02:00 PM, available: yes
+[2025-03-27 15:46:33] Total slots: 13
+[2025-03-27 17:14:47] GET request: {"date":"2025-03-29","dentist_id":"4","service_id":"6","_":"1743092087183"}
+[2025-03-27 17:14:47] Parameters: date=2025-03-29, service_id=6, dentist_id=4
+[2025-03-27 17:14:47] Day of week: 6
+[2025-03-27 17:14:47] Service duration: 30 minutes
+[2025-03-27 17:14:47] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:14:47] Results: 0 rows
+[2025-03-27 17:14:47] Total slots: 0
+[2025-03-27 17:14:50] GET request: {"date":"2025-03-30","dentist_id":"4","service_id":"6","_":"1743092090072"}
+[2025-03-27 17:14:50] Parameters: date=2025-03-30, service_id=6, dentist_id=4
+[2025-03-27 17:14:50] Day of week: 0
+[2025-03-27 17:14:50] Service duration: 30 minutes
+[2025-03-27 17:14:50] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:14:50] Results: 0 rows
+[2025-03-27 17:14:50] Total slots: 0
+[2025-03-27 17:14:50] GET request: {"date":"2025-03-31","dentist_id":"4","service_id":"6","_":"1743092090916"}
+[2025-03-27 17:14:50] Parameters: date=2025-03-31, service_id=6, dentist_id=4
+[2025-03-27 17:14:50] Day of week: 1
+[2025-03-27 17:14:50] Service duration: 30 minutes
+[2025-03-27 17:14:50] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:14:50] Results: 0 rows
+[2025-03-27 17:14:50] Total slots: 0
+[2025-03-27 17:14:58] GET request: {"date":"2025-04-01","dentist_id":"4","service_id":"6","_":"1743092098763"}
+[2025-03-27 17:14:58] Parameters: date=2025-04-01, service_id=6, dentist_id=4
+[2025-03-27 17:14:58] Day of week: 2
+[2025-03-27 17:14:58] Service duration: 30 minutes
+[2025-03-27 17:14:58] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:14:58] Results: 1 rows
+[2025-03-27 17:14:58] Processing dentist ID 4: John Doe
+[2025-03-27 17:14:58] Hours: 14:30 - 01:22
+[2025-03-27 17:14:58] Total slots: 0
+[2025-03-27 17:15:02] GET request: {"date":"2025-04-02","dentist_id":"4","service_id":"6","_":"1743092102862"}
+[2025-03-27 17:15:02] Parameters: date=2025-04-02, service_id=6, dentist_id=4
+[2025-03-27 17:15:02] Day of week: 3
+[2025-03-27 17:15:02] Service duration: 30 minutes
+[2025-03-27 17:15:02] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:15:02] Results: 0 rows
+[2025-03-27 17:15:02] Total slots: 0
+[2025-03-27 17:15:03] GET request: {"date":"2025-04-03","dentist_id":"4","service_id":"6","_":"1743092103719"}
+[2025-03-27 17:15:03] Parameters: date=2025-04-03, service_id=6, dentist_id=4
+[2025-03-27 17:15:03] Day of week: 4
+[2025-03-27 17:15:03] Service duration: 30 minutes
+[2025-03-27 17:15:03] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:15:03] Results: 0 rows
+[2025-03-27 17:15:03] Total slots: 0
+[2025-03-27 17:15:09] GET request: {"date":"2025-04-04","dentist_id":"4","service_id":"6","_":"1743092109882"}
+[2025-03-27 17:15:09] Parameters: date=2025-04-04, service_id=6, dentist_id=4
+[2025-03-27 17:15:09] Day of week: 5
+[2025-03-27 17:15:09] Service duration: 30 minutes
+[2025-03-27 17:15:09] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:15:09] Results: 0 rows
+[2025-03-27 17:15:09] Total slots: 0
+[2025-03-27 17:15:53] GET request: {"date":"2025-03-29","dentist_id":"4","service_id":"6","_":"1743092153399"}
+[2025-03-27 17:15:53] Parameters: date=2025-03-29, service_id=6, dentist_id=4
+[2025-03-27 17:15:53] Day of week: 6
+[2025-03-27 17:15:53] Service duration: 30 minutes
+[2025-03-27 17:15:53] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:15:53] Results: 0 rows
+[2025-03-27 17:15:53] Total slots: 0
+[2025-03-27 17:15:54] GET request: {"date":"2025-03-30","dentist_id":"4","service_id":"6","_":"1743092154930"}
+[2025-03-27 17:15:54] Parameters: date=2025-03-30, service_id=6, dentist_id=4
+[2025-03-27 17:15:54] Day of week: 0
+[2025-03-27 17:15:54] Service duration: 30 minutes
+[2025-03-27 17:15:54] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:15:54] Results: 0 rows
+[2025-03-27 17:15:54] Total slots: 0
+[2025-03-27 17:15:55] GET request: {"date":"2025-03-31","dentist_id":"4","service_id":"6","_":"1743092155638"}
+[2025-03-27 17:15:55] Parameters: date=2025-03-31, service_id=6, dentist_id=4
+[2025-03-27 17:15:55] Day of week: 1
+[2025-03-27 17:15:55] Service duration: 30 minutes
+[2025-03-27 17:15:55] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:15:55] Results: 0 rows
+[2025-03-27 17:15:55] Total slots: 0
+[2025-03-27 17:16:07] GET request: {"date":"2025-04-01","dentist_id":"4","service_id":"6","_":"1743092167819"}
+[2025-03-27 17:16:07] Parameters: date=2025-04-01, service_id=6, dentist_id=4
+[2025-03-27 17:16:07] Day of week: 2
+[2025-03-27 17:16:07] Service duration: 30 minutes
+[2025-03-27 17:16:07] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:16:07] Results: 1 rows
+[2025-03-27 17:16:07] Processing dentist ID 4: John Doe
+[2025-03-27 17:16:07] Hours: 14:30 - 01:22
+[2025-03-27 17:16:07] Total slots: 0
+[2025-03-27 17:16:10] GET request: {"date":"2025-04-08","dentist_id":"4","service_id":"6","_":"1743092170786"}
+[2025-03-27 17:16:10] Parameters: date=2025-04-08, service_id=6, dentist_id=4
+[2025-03-27 17:16:10] Day of week: 2
+[2025-03-27 17:16:10] Service duration: 30 minutes
+[2025-03-27 17:16:10] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:16:10] Results: 1 rows
+[2025-03-27 17:16:10] Processing dentist ID 4: John Doe
+[2025-03-27 17:16:10] Hours: 14:30 - 01:22
+[2025-03-27 17:16:10] Total slots: 0
+[2025-03-27 17:16:11] GET request: {"date":"2025-04-15","dentist_id":"4","service_id":"6","_":"1743092171754"}
+[2025-03-27 17:16:11] Parameters: date=2025-04-15, service_id=6, dentist_id=4
+[2025-03-27 17:16:11] Day of week: 2
+[2025-03-27 17:16:11] Service duration: 30 minutes
+[2025-03-27 17:16:11] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:16:11] Results: 1 rows
+[2025-03-27 17:16:11] Processing dentist ID 4: John Doe
+[2025-03-27 17:16:11] Hours: 14:30 - 01:22
+[2025-03-27 17:16:11] Total slots: 0
+[2025-03-27 17:19:05] GET request: {"date":"2025-04-22","dentist_id":"","service_id":"1","_":"1743092345476"}
+[2025-03-27 17:19:05] Parameters: date=2025-04-22, service_id=1, dentist_id=0
+[2025-03-27 17:19:05] Day of week: 2
+[2025-03-27 17:19:05] Service duration: 30 minutes
+[2025-03-27 17:19:05] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1
+[2025-03-27 17:19:05] Results: 1 rows
+[2025-03-27 17:19:05] Processing dentist ID 4: John Doe
+[2025-03-27 17:19:05] Hours: 14:30 - 01:22
+[2025-03-27 17:19:05] Total slots: 0
+[2025-03-27 17:19:14] GET request: {"date":"2025-04-02","dentist_id":"4","service_id":"1","_":"1743092354150"}
+[2025-03-27 17:19:14] Parameters: date=2025-04-02, service_id=1, dentist_id=4
+[2025-03-27 17:19:14] Day of week: 3
+[2025-03-27 17:19:14] Service duration: 30 minutes
+[2025-03-27 17:19:14] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:19:14] Results: 0 rows
+[2025-03-27 17:19:14] Total slots: 0
+[2025-03-27 17:20:20] GET request: {"date":"2025-04-01","dentist_id":"4","service_id":"1","_":"1743092420411"}
+[2025-03-27 17:20:20] Parameters: date=2025-04-01, service_id=1, dentist_id=4
+[2025-03-27 17:20:20] Day of week: 2
+[2025-03-27 17:20:20] Service duration: 30 minutes
+[2025-03-27 17:20:20] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:20:20] Results: 1 rows
+[2025-03-27 17:20:20] Processing dentist ID 4: John Doe
+[2025-03-27 17:20:20] Hours: 14:30 - 01:22
+[2025-03-27 17:20:20] Total slots: 0
+[2025-03-27 17:20:22] GET request: {"date":"2025-04-22","dentist_id":"4","service_id":"1","_":"1743092422458"}
+[2025-03-27 17:20:22] Parameters: date=2025-04-22, service_id=1, dentist_id=4
+[2025-03-27 17:20:22] Day of week: 2
+[2025-03-27 17:20:22] Service duration: 30 minutes
+[2025-03-27 17:20:22] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:20:22] Results: 1 rows
+[2025-03-27 17:20:22] Processing dentist ID 4: John Doe
+[2025-03-27 17:20:22] Hours: 14:30 - 01:22
+[2025-03-27 17:20:22] Total slots: 0
+[2025-03-27 17:20:25] GET request: {"date":"2025-04-07","dentist_id":"4","service_id":"1","_":"1743092425811"}
+[2025-03-27 17:20:25] Parameters: date=2025-04-07, service_id=1, dentist_id=4
+[2025-03-27 17:20:25] Day of week: 1
+[2025-03-27 17:20:25] Service duration: 30 minutes
+[2025-03-27 17:20:25] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:20:25] Results: 0 rows
+[2025-03-27 17:20:25] Total slots: 0
+[2025-03-27 17:20:56] GET request: {"date":"2025-03-31","dentist_id":"12","service_id":"2","_":"1743092456261"}
+[2025-03-27 17:20:56] Parameters: date=2025-03-31, service_id=2, dentist_id=12
+[2025-03-27 17:20:56] Day of week: 1
+[2025-03-27 17:20:56] Service duration: 30 minutes
+[2025-03-27 17:20:56] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:20:56] Results: 1 rows
+[2025-03-27 17:20:56] Processing dentist ID 12: Juan Reyes
+[2025-03-27 17:20:56] Hours: 08:00 - 15:00
+[2025-03-27 17:20:56] Added slot: 08:00 AM, available: no
+[2025-03-27 17:20:56] Added slot: 08:30 AM, available: yes
+[2025-03-27 17:20:56] Added slot: 09:00 AM, available: yes
+[2025-03-27 17:20:56] Added slot: 09:30 AM, available: yes
+[2025-03-27 17:20:56] Added slot: 10:00 AM, available: yes
+[2025-03-27 17:20:56] Added slot: 10:30 AM, available: yes
+[2025-03-27 17:20:56] Added slot: 11:00 AM, available: yes
+[2025-03-27 17:20:56] Added slot: 11:30 AM, available: yes
+[2025-03-27 17:20:56] Added slot: 12:00 PM, available: yes
+[2025-03-27 17:20:56] Added slot: 12:30 PM, available: yes
+[2025-03-27 17:20:56] Added slot: 01:00 PM, available: yes
+[2025-03-27 17:20:56] Added slot: 01:30 PM, available: yes
+[2025-03-27 17:20:56] Added slot: 02:00 PM, available: yes
+[2025-03-27 17:20:56] Total slots: 13
+[2025-03-27 17:21:11] GET request: {"date":"2025-03-31","dentist_id":"12","service_id":"7","_":"1743092471855"}
+[2025-03-27 17:21:11] Parameters: date=2025-03-31, service_id=7, dentist_id=12
+[2025-03-27 17:21:11] Day of week: 1
+[2025-03-27 17:21:11] Service duration: 30 minutes
+[2025-03-27 17:21:11] Query: SELECT da.user_id, da.start_time, da.end_time, da.max_appointments,
+                  u.first_name, u.last_name
+           FROM dentist_availability da
+           JOIN users u ON da.user_id = u.id
+           WHERE da.day_of_week = ? AND da.is_available = 1 AND da.user_id = ?
+[2025-03-27 17:21:11] Results: 1 rows
+[2025-03-27 17:21:11] Processing dentist ID 12: Juan Reyes
+[2025-03-27 17:21:11] Hours: 08:00 - 15:00
+[2025-03-27 17:21:11] Added slot: 08:00 AM, available: no
+[2025-03-27 17:21:11] Added slot: 08:30 AM, available: yes
+[2025-03-27 17:21:11] Added slot: 09:00 AM, available: yes
+[2025-03-27 17:21:11] Added slot: 09:30 AM, available: yes
+[2025-03-27 17:21:11] Added slot: 10:00 AM, available: yes
+[2025-03-27 17:21:11] Added slot: 10:30 AM, available: yes
+[2025-03-27 17:21:11] Added slot: 11:00 AM, available: yes
+[2025-03-27 17:21:11] Added slot: 11:30 AM, available: yes
+[2025-03-27 17:21:11] Added slot: 12:00 PM, available: yes
+[2025-03-27 17:21:11] Added slot: 12:30 PM, available: yes
+[2025-03-27 17:21:11] Added slot: 01:00 PM, available: yes
+[2025-03-27 17:21:11] Added slot: 01:30 PM, available: yes
+[2025-03-27 17:21:11] Added slot: 02:00 PM, available: yes
+[2025-03-27 17:21:11] Total slots: 13
+[2025-04-01 06:03:13] GET request: {"date":"2025-04-09","dentist_id":"12","service_id":"5","_":"1743480193364"}
+[2025-04-01 06:03:13] Parameters: date=2025-04-09, service_id=5, dentist_id=12
+[2025-04-01 06:03:13] Day of week: 3
+[2025-04-01 06:03:13] Service duration: 30 minutes
+[2025-04-01 06:03:13] ERROR: Unknown column 'da.user_id' in 'field list'
+[2025-04-01 06:36:16] GET request: {"date":"2025-04-14","dentist_id":"12","service_id":"5","_":"1743482180586"}
+[2025-04-01 06:36:16] Parameters: date=2025-04-14, service_id=5, dentist_id=12
+[2025-04-01 06:36:16] Day of week: 1
+[2025-04-01 06:36:16] Service duration: 30 minutes
+[2025-04-01 06:36:16] ERROR: Unknown column 'da.user_id' in 'field list'
+[2025-04-06 16:50:54] GET request: {"date":"2025-04-28","dentist_id":"12","service_id":"4","_":"1743951054585"}
+[2025-04-06 16:50:54] Parameters: date=2025-04-28, service_id=4, dentist_id=12
+[2025-04-06 16:50:54] Day of week: 1
+[2025-04-06 16:50:54] Service duration: 30 minutes
+[2025-04-06 16:50:54] ERROR: Unknown column 'da.user_id' in 'field list'
+[2025-04-06 16:50:57] GET request: {"date":"2025-04-27","dentist_id":"12","service_id":"4","_":"1743951057243"}
+[2025-04-06 16:50:57] Parameters: date=2025-04-27, service_id=4, dentist_id=12
+[2025-04-06 16:50:57] Day of week: 0
+[2025-04-06 16:50:57] Service duration: 30 minutes
+[2025-04-06 16:50:57] ERROR: Unknown column 'da.user_id' in 'field list'
+[2025-04-06 16:50:58] GET request: {"date":"2025-04-07","dentist_id":"12","service_id":"4","_":"1743951058908"}
+[2025-04-06 16:50:58] Parameters: date=2025-04-07, service_id=4, dentist_id=12
+[2025-04-06 16:50:58] Day of week: 1
+[2025-04-06 16:50:58] Service duration: 30 minutes
+[2025-04-06 16:50:58] ERROR: Unknown column 'da.user_id' in 'field list'

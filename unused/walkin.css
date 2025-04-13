@@ -1,0 +1,174 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 80px 60px 0;
+    font-family: sans-serif;
+    margin-top: 40px;
+    height: calc(100vh - 100px);
+    background-color: white;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    
+}
+
+.text{
+    text-align: left;              
+    font-weight: lighter;       
+    font-size: 25px;               
+    color: black;                  
+    margin: 0;                     
+}
+
+.text-header{
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* Table Container */
+.container {
+    background-color: #E2F8ED;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    
+}
+
+
+.export-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Reduce the gap value */
+    margin-bottom: 20px;
+
+}
+
+.head {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 380px;
+}
+
+.export {
+    background-color: #000069;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.export:hover {
+    background-color: #45a049;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+th {
+    background-color: white;
+}
+
+
+td:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+button.view, button.edit, button.delete {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.view {
+    background-color: lightslategrey;
+}
+
+button.view:hover {
+    background-color: rgb(70, 101, 133);
+}
+
+button.edit {
+    background-color: #007BFF;
+}
+
+button.edit:hover {
+    background-color: #0056b3;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Status Badges */
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.status.confirmed {
+    background-color: green;
+}
+
+.status.treated {
+    background-color: blue;
+}
+
+.status.canceled {
+    background-color: red;
+}
+
+.status.pending {
+    background-color: orange;
+}

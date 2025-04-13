@@ -1,0 +1,2542 @@
+[2025-03-24 20:02:18] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:02:18] Query results: 1 rows
+[2025-03-24 20:02:20] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:02:20] Query results: 1 rows
+[2025-03-24 20:02:20] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:02:20] Query results: 1 rows
+[2025-03-24 20:02:20] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:02:20] Query results: 1 rows
+[2025-03-24 20:02:21] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:02:21] Query results: 1 rows
+[2025-03-24 20:02:26] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:02:26] Query results: 1 rows
+[2025-03-24 20:02:28] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:02:28] Query results: 1 rows
+[2025-03-24 20:02:34] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:02:34] Query results: 1 rows
+[2025-03-24 20:04:02] delete_schedule - POST: {"availability_id":"1","dentist_id":"20"}
+[2025-03-24 20:04:02] Delete result: success
+[2025-03-24 20:04:02] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:04:02] Query results: 0 rows
+[2025-03-24 20:04:23] add_schedule - POST: {"dentist_id":"20","day_of_week":"1","start_time":"08:00","end_time":"15:00","max_appointments":"1","is_available":"1"}
+[2025-03-24 20:04:23] Dentist ID: 20, Day: 1
+[2025-03-24 20:04:23] Insert result: success
+[2025-03-24 20:04:23] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:04:23] Query results: 1 rows
+[2025-03-24 20:04:26] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:04:26] Query results: 1 rows
+[2025-03-24 20:04:26] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:04:26] Query results: 1 rows
+[2025-03-24 20:04:26] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:04:26] Query results: 1 rows
+[2025-03-24 20:04:26] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:04:26] Query results: 1 rows
+[2025-03-24 20:04:31] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:04:31] Query results: 1 rows
+[2025-03-24 20:04:37] get_available_dates - GET: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"","service_id":"5"}
+[2025-03-24 20:04:38] get_available_dates - GET: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"20","service_id":"5"}
+[2025-03-24 20:11:54] get_available_dates - GET: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"20","service_id":"5"}
+[2025-03-24 20:11:55] get_available_dates - GET: {"start":"2025-02-23T00:00:00 08:00","end":"2025-04-06T00:00:00 08:00","dentist_id":"20","service_id":"5"}
+[2025-03-24 20:11:56] get_available_dates - GET: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"20","service_id":"5"}
+[2025-03-24 20:13:56] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:13:56] Query results: 1 rows
+[2025-03-24 20:13:56] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Generated 9 events
+[2025-03-24 20:13:59] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:13:59] Query results: 1 rows
+[2025-03-24 20:13:59] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Generated 9 events
+[2025-03-24 20:14:09] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:14:09] Query results: 1 rows
+[2025-03-24 20:14:09] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Generated 9 events
+[2025-03-24 20:15:58] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:15:58] Query results: 1 rows
+[2025-03-24 20:15:58] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Generated 9 events
+[2025-03-24 20:16:19] add_schedule - POST: {"dentist_id":"20","day_of_week":"3","start_time":"08:00","end_time":"15:00","max_appointments":"1","is_available":"1"}
+Data: dentist_id=20, day=3, start=08:00, end=15:00, max=1, available=1
+Check SQL: SELECT availability_id FROM dentist_availability WHERE user_id = ? AND day_of_week = ?
+Check result: 0 rows
+Insert SQL: INSERT INTO dentist_availability (user_id, day_of_week, start_time, end_time, max_appointments, is_available) 
+        VALUES (?, ?, ?, ?, ?, ?)
+Insert result: Success
+[2025-03-24 20:16:19] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:16:19] Query results: 2 rows
+[2025-03-24 20:16:19] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-24 20:16:31] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:16:31] Query results: 2 rows
+[2025-03-24 20:16:31] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-24 20:16:36] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:16:36] Query results: 2 rows
+[2025-03-24 20:16:36] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-24 20:16:51] add_schedule - POST: {"dentist_id":"20","day_of_week":"5","start_time":"08:00","end_time":"15:00","max_appointments":"5","is_available":"1"}
+Data: dentist_id=20, day=5, start=08:00, end=15:00, max=5, available=1
+Check SQL: SELECT availability_id FROM dentist_availability WHERE user_id = ? AND day_of_week = ?
+Check result: 0 rows
+Insert SQL: INSERT INTO dentist_availability (user_id, day_of_week, start_time, end_time, max_appointments, is_available) 
+        VALUES (?, ?, ?, ?, ?, ?)
+Insert result: Success
+[2025-03-24 20:16:51] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:16:51] Query results: 3 rows
+[2025-03-24 20:16:51] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:17:10] get_available_dates - GET: {"start":"2025-03-30T00:00:00 08:00","end":"2025-05-11T00:00:00 08:00","dentist_id":"20","service_id":"2"}
+[2025-03-24 20:28:01] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:28:01] Query results: 3 rows
+[2025-03-24 20:28:01] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:28:01] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:28:01] Query results: 3 rows
+[2025-03-24 20:28:01] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:28:02] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:28:02] Query results: 3 rows
+[2025-03-24 20:28:02] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:28:02] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:28:02] Query results: 3 rows
+[2025-03-24 20:28:02] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:28:02] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:28:02] Query results: 3 rows
+[2025-03-24 20:28:02] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:28:02] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:28:02] Query results: 3 rows
+[2025-03-24 20:28:02] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:28:02] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:28:02] Query results: 3 rows
+[2025-03-24 20:28:02] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:32:58] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:32:58] Query results: 3 rows
+[2025-03-24 20:32:58] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:32:59] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:32:59] Query results: 3 rows
+[2025-03-24 20:32:59] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:32:59] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:32:59] Query results: 3 rows
+[2025-03-24 20:32:59] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:32:59] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:32:59] Query results: 3 rows
+[2025-03-24 20:32:59] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:33:01] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:33:01] Query results: 3 rows
+[2025-03-24 20:33:01] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 20:57:59] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 20:57:59] Query results: 3 rows
+[2025-03-24 20:57:59] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 21:10:14] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 21:10:14] Query results: 3 rows
+[2025-03-24 21:10:14] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 21:10:15] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 21:10:15] Query results: 3 rows
+[2025-03-24 21:10:15] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-24 21:10:15] get_weekly_schedule - Dentist ID: 20
+[2025-03-24 21:10:15] Query results: 3 rows
+[2025-03-24 21:10:15] Starting get_schedule_events.php
+Parameters: dentist_id=20, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 3
+Found schedule for day 1
+Found schedule for day 3
+Found schedule for day 5
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-07 (day 5)
+Added available regular event for 2025-02-07
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-14 (day 5)
+Added available regular event for 2025-02-14
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-21 (day 5)
+Added available regular event for 2025-02-21
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-02-28 (day 5)
+Added available regular event for 2025-02-28
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-07 (day 5)
+Added available regular event for 2025-03-07
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-14 (day 5)
+Added available regular event for 2025-03-14
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-21 (day 5)
+Added available regular event for 2025-03-21
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-28 (day 5)
+Added available regular event for 2025-03-28
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Processing regular schedule for 2025-04-04 (day 5)
+Added available regular event for 2025-04-04
+Generated 27 events
+[2025-03-27 13:53:53] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 13:53:53] Query results: 0 rows
+[2025-03-27 13:53:53] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 0
+Exception result rows: 0
+Generated 0 events
+[2025-03-27 13:54:18] add_schedule - POST: {"dentist_id":"12","day_of_week":"1","start_time":"08:00","end_time":"15:00","max_appointments":"1","is_available":"1"}
+Data: dentist_id=12, day=1, start=08:00, end=15:00, max=1, available=1
+Check SQL: SELECT availability_id FROM dentist_availability WHERE user_id = ? AND day_of_week = ?
+Check result: 0 rows
+Insert SQL: INSERT INTO dentist_availability (user_id, day_of_week, start_time, end_time, max_appointments, is_available) 
+        VALUES (?, ?, ?, ?, ?, ?)
+Insert result: Success
+[2025-03-27 13:54:19] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Generated 9 events
+[2025-03-27 13:54:19] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 13:54:19] Query results: 1 rows
+[2025-03-27 13:55:22] add_schedule - POST: {"dentist_id":"12","day_of_week":"3","start_time":"08:00","end_time":"15:00","max_appointments":"1","is_available":"1"}
+Data: dentist_id=12, day=3, start=08:00, end=15:00, max=1, available=1
+Check SQL: SELECT availability_id FROM dentist_availability WHERE user_id = ? AND day_of_week = ?
+Check result: 0 rows
+Insert SQL: INSERT INTO dentist_availability (user_id, day_of_week, start_time, end_time, max_appointments, is_available) 
+        VALUES (?, ?, ?, ?, ?, ?)
+Insert result: Success
+[2025-03-27 13:55:23] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 13:55:23] Query results: 2 rows
+[2025-03-27 13:55:23] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 14:22:57] get_weekly_schedule - Dentist ID: 4
+[2025-03-27 14:22:57] Query results: 0 rows
+[2025-03-27 14:22:57] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-02-23T00:00:00-08:00, end=2025-04-06T00:00:00-07:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 0
+Exception result rows: 0
+Generated 0 events
+[2025-03-27 14:25:12] add_schedule - POST: {"dentist_id":"4","day_of_week":"2","start_time":"14:30","end_time":"01:22","max_appointments":"1","is_available":"1"}
+Data: dentist_id=4, day=2, start=14:30, end=01:22, max=1, available=1
+Check SQL: SELECT availability_id FROM dentist_availability WHERE user_id = ? AND day_of_week = ?
+Check result: 0 rows
+Insert SQL: INSERT INTO dentist_availability (user_id, day_of_week, start_time, end_time, max_appointments, is_available) 
+        VALUES (?, ?, ?, ?, ?, ?)
+Insert result: Success
+[2025-03-27 14:25:15] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-02-23T00:00:00-08:00, end=2025-04-06T00:00:00-07:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 2
+Exception result rows: 0
+Processing regular schedule for 2025-02-04 (day 2)
+Added available regular event for 2025-02-04
+Processing regular schedule for 2025-02-11 (day 2)
+Added available regular event for 2025-02-11
+Processing regular schedule for 2025-02-18 (day 2)
+Added available regular event for 2025-02-18
+Processing regular schedule for 2025-02-25 (day 2)
+Added available regular event for 2025-02-25
+Processing regular schedule for 2025-03-04 (day 2)
+Added available regular event for 2025-03-04
+Processing regular schedule for 2025-03-11 (day 2)
+Added available regular event for 2025-03-11
+Processing regular schedule for 2025-03-18 (day 2)
+Added available regular event for 2025-03-18
+Processing regular schedule for 2025-03-25 (day 2)
+Added available regular event for 2025-03-25
+Processing regular schedule for 2025-04-01 (day 2)
+Added available regular event for 2025-04-01
+Generated 9 events
+[2025-03-27 14:25:15] get_weekly_schedule - Dentist ID: 4
+[2025-03-27 14:25:15] Query results: 1 rows
+[2025-03-27 14:26:13] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-02-23T00:00:00-08:00, end=2025-04-06T00:00:00-07:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 2
+Exception result rows: 1
+Found exception for date 2025-04-03
+Processing regular schedule for 2025-02-04 (day 2)
+Added available regular event for 2025-02-04
+Processing regular schedule for 2025-02-11 (day 2)
+Added available regular event for 2025-02-11
+Processing regular schedule for 2025-02-18 (day 2)
+Added available regular event for 2025-02-18
+Processing regular schedule for 2025-02-25 (day 2)
+Added available regular event for 2025-02-25
+Processing regular schedule for 2025-03-04 (day 2)
+Added available regular event for 2025-03-04
+Processing regular schedule for 2025-03-11 (day 2)
+Added available regular event for 2025-03-11
+Processing regular schedule for 2025-03-18 (day 2)
+Added available regular event for 2025-03-18
+Processing regular schedule for 2025-03-25 (day 2)
+Added available regular event for 2025-03-25
+Processing regular schedule for 2025-04-01 (day 2)
+Added available regular event for 2025-04-01
+Processing exception for 2025-04-03
+Added unavailable exception event for 2025-04-03
+Generated 10 events
+[2025-03-27 14:26:14] get_weekly_schedule - Dentist ID: 4
+[2025-03-27 14:26:14] Query results: 1 rows
+[2025-03-27 14:27:56] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-02-23T00:00:00-08:00, end=2025-04-06T00:00:00-07:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 2
+Exception result rows: 2
+Found exception for date 2025-04-03
+Found exception for date 2025-04-01
+Processing regular schedule for 2025-02-04 (day 2)
+Added available regular event for 2025-02-04
+Processing regular schedule for 2025-02-11 (day 2)
+Added available regular event for 2025-02-11
+Processing regular schedule for 2025-02-18 (day 2)
+Added available regular event for 2025-02-18
+Processing regular schedule for 2025-02-25 (day 2)
+Added available regular event for 2025-02-25
+Processing regular schedule for 2025-03-04 (day 2)
+Added available regular event for 2025-03-04
+Processing regular schedule for 2025-03-11 (day 2)
+Added available regular event for 2025-03-11
+Processing regular schedule for 2025-03-18 (day 2)
+Added available regular event for 2025-03-18
+Processing regular schedule for 2025-03-25 (day 2)
+Added available regular event for 2025-03-25
+Processing exception for 2025-04-01
+Added unavailable exception event for 2025-04-01
+Processing exception for 2025-04-03
+Added unavailable exception event for 2025-04-03
+Generated 10 events
+[2025-03-27 14:27:57] get_weekly_schedule - Dentist ID: 4
+[2025-03-27 14:27:57] Query results: 1 rows
+[2025-03-27 14:28:12] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00-08:00, end=2025-04-06T00:00:00-07:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 14:28:12] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 14:28:12] Query results: 2 rows
+[2025-03-27 16:09:48] get_weekly_schedule - Dentist ID: 4
+[2025-03-27 16:09:48] Query results: 1 rows
+[2025-03-27 16:09:48] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 2
+Exception result rows: 2
+Found exception for date 2025-04-03
+Found exception for date 2025-04-01
+Processing regular schedule for 2025-02-04 (day 2)
+Added available regular event for 2025-02-04
+Processing regular schedule for 2025-02-11 (day 2)
+Added available regular event for 2025-02-11
+Processing regular schedule for 2025-02-18 (day 2)
+Added available regular event for 2025-02-18
+Processing regular schedule for 2025-02-25 (day 2)
+Added available regular event for 2025-02-25
+Processing regular schedule for 2025-03-04 (day 2)
+Added available regular event for 2025-03-04
+Processing regular schedule for 2025-03-11 (day 2)
+Added available regular event for 2025-03-11
+Processing regular schedule for 2025-03-18 (day 2)
+Added available regular event for 2025-03-18
+Processing regular schedule for 2025-03-25 (day 2)
+Added available regular event for 2025-03-25
+Processing exception for 2025-04-01
+Added unavailable exception event for 2025-04-01
+Processing exception for 2025-04-03
+Added unavailable exception event for 2025-04-03
+Generated 10 events
+[2025-03-27 16:09:51] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 16:09:51] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 16:09:51] Query results: 2 rows
+[2025-03-27 16:09:55] get_weekly_schedule - Dentist ID: 4
+[2025-03-27 16:09:55] Query results: 1 rows
+[2025-03-27 16:09:55] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 2
+Exception result rows: 2
+Found exception for date 2025-04-03
+Found exception for date 2025-04-01
+Processing regular schedule for 2025-02-04 (day 2)
+Added available regular event for 2025-02-04
+Processing regular schedule for 2025-02-11 (day 2)
+Added available regular event for 2025-02-11
+Processing regular schedule for 2025-02-18 (day 2)
+Added available regular event for 2025-02-18
+Processing regular schedule for 2025-02-25 (day 2)
+Added available regular event for 2025-02-25
+Processing regular schedule for 2025-03-04 (day 2)
+Added available regular event for 2025-03-04
+Processing regular schedule for 2025-03-11 (day 2)
+Added available regular event for 2025-03-11
+Processing regular schedule for 2025-03-18 (day 2)
+Added available regular event for 2025-03-18
+Processing regular schedule for 2025-03-25 (day 2)
+Added available regular event for 2025-03-25
+Processing exception for 2025-04-01
+Added unavailable exception event for 2025-04-01
+Processing exception for 2025-04-03
+Added unavailable exception event for 2025-04-03
+Generated 10 events
+[2025-03-27 16:10:03] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 16:10:03] Query results: 2 rows
+[2025-03-27 16:10:03] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 17:07:02] get_weekly_schedule - Dentist ID: 4
+[2025-03-27 17:07:02] Query results: 1 rows
+[2025-03-27 17:07:02] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 2
+Exception result rows: 2
+Found exception for date 2025-04-03
+Found exception for date 2025-04-01
+Processing regular schedule for 2025-02-04 (day 2)
+Added available regular event for 2025-02-04
+Processing regular schedule for 2025-02-11 (day 2)
+Added available regular event for 2025-02-11
+Processing regular schedule for 2025-02-18 (day 2)
+Added available regular event for 2025-02-18
+Processing regular schedule for 2025-02-25 (day 2)
+Added available regular event for 2025-02-25
+Processing regular schedule for 2025-03-04 (day 2)
+Added available regular event for 2025-03-04
+Processing regular schedule for 2025-03-11 (day 2)
+Added available regular event for 2025-03-11
+Processing regular schedule for 2025-03-18 (day 2)
+Added available regular event for 2025-03-18
+Processing regular schedule for 2025-03-25 (day 2)
+Added available regular event for 2025-03-25
+Processing exception for 2025-04-01
+Added unavailable exception event for 2025-04-01
+Processing exception for 2025-04-03
+Added unavailable exception event for 2025-04-03
+Generated 10 events
+[2025-03-27 17:07:05] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 17:07:05] Query results: 2 rows
+[2025-03-27 17:07:05] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 17:15:15] get_weekly_schedule - Dentist ID: 4
+[2025-03-27 17:15:15] Query results: 1 rows
+[2025-03-27 17:15:15] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 2
+Exception result rows: 2
+Found exception for date 2025-04-03
+Found exception for date 2025-04-01
+Processing regular schedule for 2025-02-04 (day 2)
+Added available regular event for 2025-02-04
+Processing regular schedule for 2025-02-11 (day 2)
+Added available regular event for 2025-02-11
+Processing regular schedule for 2025-02-18 (day 2)
+Added available regular event for 2025-02-18
+Processing regular schedule for 2025-02-25 (day 2)
+Added available regular event for 2025-02-25
+Processing regular schedule for 2025-03-04 (day 2)
+Added available regular event for 2025-03-04
+Processing regular schedule for 2025-03-11 (day 2)
+Added available regular event for 2025-03-11
+Processing regular schedule for 2025-03-18 (day 2)
+Added available regular event for 2025-03-18
+Processing regular schedule for 2025-03-25 (day 2)
+Added available regular event for 2025-03-25
+Processing exception for 2025-04-01
+Added unavailable exception event for 2025-04-01
+Processing exception for 2025-04-03
+Added unavailable exception event for 2025-04-03
+Generated 10 events
+[2025-03-27 17:16:02] Starting get_schedule_events.php
+Parameters: dentist_id=4, start=2025-03-30T00:00:00+08:00, end=2025-05-11T00:00:00+08:00
+Adjusted start date: 2025-03-01
+End date: 2025-05-11
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 2
+Exception result rows: 2
+Found exception for date 2025-04-03
+Found exception for date 2025-04-01
+Processing regular schedule for 2025-03-04 (day 2)
+Added available regular event for 2025-03-04
+Processing regular schedule for 2025-03-11 (day 2)
+Added available regular event for 2025-03-11
+Processing regular schedule for 2025-03-18 (day 2)
+Added available regular event for 2025-03-18
+Processing regular schedule for 2025-03-25 (day 2)
+Added available regular event for 2025-03-25
+Processing exception for 2025-04-01
+Added unavailable exception event for 2025-04-01
+Processing exception for 2025-04-03
+Added unavailable exception event for 2025-04-03
+Processing regular schedule for 2025-04-08 (day 2)
+Added available regular event for 2025-04-08
+Processing regular schedule for 2025-04-15 (day 2)
+Added available regular event for 2025-04-15
+Processing regular schedule for 2025-04-22 (day 2)
+Added available regular event for 2025-04-22
+Processing regular schedule for 2025-04-29 (day 2)
+Added available regular event for 2025-04-29
+Processing regular schedule for 2025-05-06 (day 2)
+Added available regular event for 2025-05-06
+Generated 11 events
+[2025-03-27 19:31:50] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 19:31:50] Query results: 2 rows
+[2025-03-27 19:31:50] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 20:54:22] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 20:54:22] Query results: 2 rows
+[2025-03-27 20:54:22] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 20:54:22] get_weekly_schedule - Dentist ID: 12
+[2025-03-27 20:54:22] Query results: 2 rows
+[2025-03-27 20:58:45] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 21:01:01] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 21:04:00] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 21:10:24] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 21:10:59] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-03-27 21:28:18] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-02-23T00:00:00+08:00, end=2025-04-06T00:00:00+08:00
+Adjusted start date: 2025-02-01
+End date: 2025-04-06
+Weekly SQL: SELECT * FROM dentist_availability WHERE user_id = ?
+Weekly schedule result rows: 2
+Found schedule for day 1
+Found schedule for day 3
+Exception result rows: 0
+Processing regular schedule for 2025-02-03 (day 1)
+Added available regular event for 2025-02-03
+Processing regular schedule for 2025-02-05 (day 3)
+Added available regular event for 2025-02-05
+Processing regular schedule for 2025-02-10 (day 1)
+Added available regular event for 2025-02-10
+Processing regular schedule for 2025-02-12 (day 3)
+Added available regular event for 2025-02-12
+Processing regular schedule for 2025-02-17 (day 1)
+Added available regular event for 2025-02-17
+Processing regular schedule for 2025-02-19 (day 3)
+Added available regular event for 2025-02-19
+Processing regular schedule for 2025-02-24 (day 1)
+Added available regular event for 2025-02-24
+Processing regular schedule for 2025-02-26 (day 3)
+Added available regular event for 2025-02-26
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-05 (day 3)
+Added available regular event for 2025-03-05
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-12 (day 3)
+Added available regular event for 2025-03-12
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-19 (day 3)
+Added available regular event for 2025-03-19
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-26 (day 3)
+Added available regular event for 2025-03-26
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-02 (day 3)
+Added available regular event for 2025-04-02
+Generated 18 events
+[2025-04-06 15:18:53] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-03-30T00:00:00+08:00, end=2025-05-11T00:00:00+08:00
+Adjusted start date: 2025-03-01
+End date: 2025-05-11
+Weekly SQL: SELECT * FROM dentist_availability WHERE dentist_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-07 (day 1)
+Added available regular event for 2025-04-07
+Processing regular schedule for 2025-04-14 (day 1)
+Added available regular event for 2025-04-14
+Processing regular schedule for 2025-04-21 (day 1)
+Added available regular event for 2025-04-21
+Processing regular schedule for 2025-04-28 (day 1)
+Added available regular event for 2025-04-28
+Processing regular schedule for 2025-05-05 (day 1)
+Added available regular event for 2025-05-05
+Generated 10 events
+[2025-04-06 15:29:42] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-03-30T00:00:00+08:00, end=2025-05-11T00:00:00+08:00
+Adjusted start date: 2025-03-01
+End date: 2025-05-11
+Weekly SQL: SELECT * FROM dentist_availability WHERE dentist_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-07 (day 1)
+Added available regular event for 2025-04-07
+Processing regular schedule for 2025-04-14 (day 1)
+Added available regular event for 2025-04-14
+Processing regular schedule for 2025-04-21 (day 1)
+Added available regular event for 2025-04-21
+Processing regular schedule for 2025-04-28 (day 1)
+Added available regular event for 2025-04-28
+Processing regular schedule for 2025-05-05 (day 1)
+Added available regular event for 2025-05-05
+Generated 10 events
+[2025-04-06 17:26:19] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-03-30T00:00:00+08:00, end=2025-05-11T00:00:00+08:00
+Adjusted start date: 2025-03-01
+End date: 2025-05-11
+Weekly SQL: SELECT * FROM dentist_availability WHERE dentist_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-07 (day 1)
+Added available regular event for 2025-04-07
+Processing regular schedule for 2025-04-14 (day 1)
+Added available regular event for 2025-04-14
+Processing regular schedule for 2025-04-21 (day 1)
+Added available regular event for 2025-04-21
+Processing regular schedule for 2025-04-28 (day 1)
+Added available regular event for 2025-04-28
+Processing regular schedule for 2025-05-05 (day 1)
+Added available regular event for 2025-05-05
+Generated 10 events
+[2025-04-06 17:29:43] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-03-30T00:00:00+08:00, end=2025-05-11T00:00:00+08:00
+Adjusted start date: 2025-03-01
+End date: 2025-05-11
+Weekly SQL: SELECT * FROM dentist_availability WHERE dentist_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-07 (day 1)
+Added available regular event for 2025-04-07
+Processing regular schedule for 2025-04-14 (day 1)
+Added available regular event for 2025-04-14
+Processing regular schedule for 2025-04-21 (day 1)
+Added available regular event for 2025-04-21
+Processing regular schedule for 2025-04-28 (day 1)
+Added available regular event for 2025-04-28
+Processing regular schedule for 2025-05-05 (day 1)
+Added available regular event for 2025-05-05
+Generated 10 events
+[2025-04-06 17:30:00] Starting get_schedule_events.php
+Parameters: dentist_id=12, start=2025-03-30T00:00:00+08:00, end=2025-05-11T00:00:00+08:00
+Adjusted start date: 2025-03-01
+End date: 2025-05-11
+Weekly SQL: SELECT * FROM dentist_availability WHERE dentist_id = ?
+Weekly schedule result rows: 1
+Found schedule for day 1
+Exception result rows: 0
+Processing regular schedule for 2025-03-03 (day 1)
+Added available regular event for 2025-03-03
+Processing regular schedule for 2025-03-10 (day 1)
+Added available regular event for 2025-03-10
+Processing regular schedule for 2025-03-17 (day 1)
+Added available regular event for 2025-03-17
+Processing regular schedule for 2025-03-24 (day 1)
+Added available regular event for 2025-03-24
+Processing regular schedule for 2025-03-31 (day 1)
+Added available regular event for 2025-03-31
+Processing regular schedule for 2025-04-07 (day 1)
+Added available regular event for 2025-04-07
+Processing regular schedule for 2025-04-14 (day 1)
+Added available regular event for 2025-04-14
+Processing regular schedule for 2025-04-21 (day 1)
+Added available regular event for 2025-04-21
+Processing regular schedule for 2025-04-28 (day 1)
+Added available regular event for 2025-04-28
+Processing regular schedule for 2025-05-05 (day 1)
+Added available regular event for 2025-05-05
+Generated 10 events

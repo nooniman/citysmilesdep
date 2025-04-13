@@ -1,0 +1,507 @@
+/* Staff Management Styles - Revamped UI */
+
+:root {
+    --primary-color: #50348f;
+    --primary-light: #9d7ded;
+    --primary-gradient: linear-gradient(135deg, #9d7ded, #6ace70);
+    --secondary-color: #6ace70;
+    --secondary-light: #a8f9ad;
+    --text-dark: #333333;
+    --text-medium: #666666;
+    --text-light: #999999;
+    --border-radius: 10px;
+    --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    --transition: all 0.3s ease;
+}
+
+/* Content container - this is the key part for sidebar responsiveness */
+.content {
+    margin-left: var(--cs-sidebar-width);
+    margin-top: 70px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+
+/* When sidebar is collapsed */
+body.cs-sidebar-collapsed .content {
+    margin-left: var(--cs-sidebar-collapsed-width);
+}
+
+/* Header Styles */
+.staff-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#staff-text h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.text-staff h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-bottom: 1.5rem;
+}
+
+.addstaff-container {
+    display: flex;
+    align-items: center;
+}
+
+.addstaff-button {
+    background: var(--primary-gradient);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.addstaff-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Staff cards container */
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* Statistics Row */
+.stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+}
+
+.stat-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--primary-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.stat-icon i {
+    color: white;
+    font-size: 20px;
+}
+
+.stat-details {
+    flex-grow: 1;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 3px;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: var(--text-medium);
+}
+
+/* Staff Card Styles */
+.staff-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.staff-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.staff-card-header {
+    padding: 15px 20px;
+    background: var(--primary-gradient);
+    color: white;
+    position: relative;
+}
+
+.staff-role {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.staff-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.staff-specialty {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.staff-card-body {
+    padding: 20px;
+}
+
+.staff-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--text-medium);
+}
+
+.info-item i {
+    width: 20px;
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.staff-card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #f5f5f5;
+    background: #fafafa;
+}
+
+.staff-action {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: var(--transition);
+}
+
+.action-view {
+    color: var(--primary-color);
+}
+
+.action-edit {
+    color: #2196f3;
+}
+
+.action-delete {
+    color: #f44336;
+}
+
+.staff-action:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Search Container */
+.search-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.search-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 15px;
+    padding-left: 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-light);
+}
+
+.filter-select {
+    padding: 10px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: white;
+    min-width: 150px;
+}
+
+/* Table view (alternative to cards) */
+.staff-table-container {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.staff-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.staff-table th {
+    background-color: #f9f9f9;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-dark);
+    border-bottom: 1px solid #eee;
+}
+
+.staff-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    color: var(--text-medium);
+}
+
+.staff-table tbody tr:hover {
+    background-color: #fafafa;
+}
+
+.table-actions {
+    display: flex;
+    gap: 5px;
+}
+
+/* Toggle view buttons */
+.view-toggle {
+    display: flex;
+    gap: 10px;
+}
+
+.toggle-btn {
+    padding: 8px 15px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: var(--transition);
+}
+
+.toggle-btn.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Empty state styling */
+.empty-state {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.empty-state i {
+    font-size: 50px;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.empty-state h3 {
+    margin: 0;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+.empty-state p {
+    color: var(--text-light);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 992px) {
+    .content {
+        margin-left: 0;
+    }
+    
+    .staff-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .addstaff-container {
+        width: 100%;
+    }
+    
+    .addstaff-button {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .stats-row {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+    
+    .search-filter-container {
+        flex-direction: column;
+    }
+    
+    .search-input, .filter-select {
+        width: 100%;
+    }
+}
+
+/* Deleted record styling */
+.deleted-record {
+    background-color: #ffebee !important;
+    opacity: 0.8;
+}
+
+.staff-card.deleted-record {
+    position: relative;
+}
+
+.staff-card.deleted-record::before {
+    content: "REMOVED";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #c62828;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.deletion-info {
+    color: #c62828;
+    font-size: 0.8em;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Toggle switch for deleted records */
+.deleted-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.toggle-label {
+    font-size: 14px;
+    color: #495057;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+    background-color: #3cb371;
+}
+
+input:checked + .toggle-slider:before {
+    transform: translateX(20px);
+}

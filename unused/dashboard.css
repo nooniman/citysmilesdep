@@ -1,0 +1,147 @@
+
+
+/* .card {
+    background: #fff;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000069;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    max-height: 100vh; 
+}
+
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 50px;
+    font-weight: lighter;
+  }
+  
+  .icon {
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+  }
+  
+  .card p {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .more-info {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .more-info:hover {
+    background-color: #000069;
+    opacity: 0.5;
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; 
+    gap: 40px; 
+    margin-top: -4%;
+    padding-bottom: 20px; 
+} */
+
+/* content */
+.main-content{
+  margin-left: 250px; /* Space for the sidebar */
+  padding: 10px 20px; /* Reduce left padding */
+  height: calc(100vh - 9vh); 
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  width: calc(100% - 250px); /* Ensure content takes full width minus sidebar */
+  margin-left: 15%;
+  margin-top: 3%;
+  gap: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row; /* Ensure horizontal alignment */
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Align items in the center vertically */
+  width: 100%;
+  gap: 20px; /* Reduce spacing between cards */
+  margin: 0;
+  padding-left: 10px; /* Slightly push cards closer to sidebar */
+  flex-wrap: nowrap; /* Prevent cards from stacking vertically */
+}
+
+.total-patient, .pending-request, .new-patients {
+  background-color: #4A90E2; /* Default background color */
+  color: white; /* Text color */
+  border-radius: 12px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space between text and image */
+  align-items: center; /* Center items vertically */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  margin: 10px; /* Margin around the card */
+  flex: 1; /* Allow items to grow equally */
+  min-width: 250px; /* Minimum width for responsiveness */
+  max-width: 400px; /* Optional: maximum width to prevent overflow */
+  margin-top: 5%;
+  
+}
+
+.total-patient {
+  background-color: #000069B2; /* Specific color for Total Patients */
+  
+}
+
+.pending-request {
+  background-color: #9A9A0BCC; /* Specific color for Pending Requests */
+}
+
+.new-patients {
+  background-color: #467073CC; /* Specific color for New Patients */
+}
+
+.info {
+  display: flex; /* Align text elements in a column */
+  flex-direction: column; /* Stack them vertically */
+  margin-right: 20px; /* Space between text and icon */
+}
+
+.info p {
+  margin: 0; /* Remove default margin */
+  font-size: 1.2em; /* Increase font size */
+}
+
+.info h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 2.5em; /* Large font size for the number */
+}
+
+img {
+  width: 50px; /* Set a fixed width for the icon */
+  height: auto; /* Maintain aspect ratio */
+}

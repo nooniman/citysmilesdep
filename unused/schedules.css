@@ -1,0 +1,161 @@
+
+.content {
+    display: flex;
+    flex-direction: column;         
+    align-items: flex-start;        
+    justify-content: flex-start;    
+    padding: 80px 60px 0;          
+    font-family: sans-serif;
+    margin-top: 40px;
+    height: calc(100vh - 100px);   
+    background-color: white;      
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    margin-left: -35px;
+    
+}
+
+.schedule-text {
+    text-align: left;              
+    font-weight: lighter;       
+    font-size: 30px;               
+    color: black;                  
+    margin: 0;                     
+}
+
+.text-schedule h1 {
+    margin: 0;                     
+    font-size: 35px;               
+    font-weight: normal;
+}
+
+.addschedule-container {
+    margin-left: auto;             
+}
+
+.addschedule-button {
+    background-color: #000069;    
+    color: white;
+    padding: 10px 20px;           
+    border: none;                  
+    border-radius: 5px;           
+    cursor: pointer;               
+}
+
+.addschedule-button:hover {
+    background-color: #45a049;     
+}
+
+.container {
+    background-color: #E2F8ED;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left: -35px;          
+}
+
+
+.search-container {
+    display: flex;                 
+}
+
+.head {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 350px;
+}
+
+.export-buttons {
+    display: flex;                 
+    align-items: center;          
+    gap: 10px;                    
+    margin-bottom: 20px;          
+}
+
+.export {
+    background-color: #000069;     
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.export:hover {
+    background-color: #45a049;      
+}
+
+table {
+    width: 100%;                  
+    border-collapse: collapse;     
+    margin-top: 40px;   
+    background-color: white;           
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.image-container {
+    width: 50px;                  
+    height: 50px;                 
+    border-radius: 50%;           
+    overflow: hidden;             
+    display: flex;                
+    align-items: center;          
+    justify-content: center;      
+    border: 2px solid black;      
+}
+
+.image-container img {
+    width: 100%;                  
+    height: auto;                 
+}
+
+th {
+    background-color: white;     
+}
+
+
+button.view, button.edit, button.delete {
+    background-color: #007BFF;     
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.view{
+    background-color: lightslategrey;
+}
+button.view:hover{
+    background-color: rgb(70, 101, 133);
+}
+
+button.edit:hover {
+    background-color: #0056b3;     
+}
+
+button.delete {
+    background-color: #dc3545;     
+}
+
+button.delete:hover {
+    background-color: #c82333;      
+}

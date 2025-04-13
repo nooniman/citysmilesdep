@@ -1,0 +1,351 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 1.25em; /* 20px / 16px */
+    border: 1px solid #dee2e6;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    margin-bottom: 1.5em;
+}
+
+#treatment-text h1 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: var(--dark-lilac);
+    margin: 0;
+}
+
+.text-treatment h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--gray-800);
+}
+
+.container {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: var(--border-radius);
+    border: 1px solid #dee2e6;
+    box-shadow: var(--box-shadow);
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.export-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.5em;
+}
+
+.export {
+    background-color: var(--primary-lilac);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.export:hover {
+    background-color: var(--dark-lilac);
+}
+
+.search-container {
+    position: relative;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 1.5em;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 20px 12px 45px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    background: white;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--primary-lilac);
+    box-shadow: 0 0 0 4px rgba(157, 125, 237, 0.15);
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--gray-500);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 14px;
+}
+
+th {
+    background-color: var(--gray-100);
+    color: var(--gray-700);
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: var(--gray-100);
+}
+
+.chart-container {
+    text-align: center;
+}
+
+.viewchart-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-lilac);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.viewchart-button:hover {
+    background-color: var(--dark-lilac);
+}
+
+button.edit {
+    background-color: var(--primary-lilac);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.edit:hover {
+    background-color: var(--dark-lilac);
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+.app-container {
+    margin-left: var(--sidebar-width);
+    padding: 25px;
+    transition: margin-left 0.3s ease;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body.cs-sidebar-collapsed .app-container {
+    margin-left: var(--sidebar-collapsed-width);
+}
+
+.content {
+    width: 100%;
+    transition: margin-left 0.3s ease;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root {
+    --sidebar-width: 250px;
+    --sidebar-collapsed-width: 80px;
+    --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --border-radius: 12px;
+    --primary-lilac: #9d7ded;
+    --dark-lilac: #7B32AB;
+    --gray-100: #f8f9fa;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-500: #adb5bd;
+}
+
+/* Deleted record styling */
+.deleted-record {
+    background-color: #ffebee !important;
+    opacity: 0.8;
+}
+
+.treatment-card.deleted-record .treatment-header {
+    background: linear-gradient(135deg, #c62828, #e57373);
+}
+
+.treatment-card.deleted-record::before {
+    content: "REMOVED";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #c62828;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.deletion-info {
+    color: #c62828;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+/* Toggle switch for deleted records */
+.deleted-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.toggle-label {
+    font-size: 14px;
+    color: #495057;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .toggle-slider {
+    background-color: var(--primary-green, #3cb371);
+}
+
+input:checked + .toggle-slider:before {
+    transform: translateX(20px);
+}
+
+/* Button styling */
+.remove-btn {
+    padding: 6px 12px;
+    background-color: #d84040;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.remove-btn:hover {
+    background-color: #c53030;
+}
+
+.restore-btn {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.restore-btn:hover {
+    background-color: #388E3C;
+}
+
+/* Loading indicator */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid var(--primary-lilac, #9d7ded);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

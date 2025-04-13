@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body {
+  background-color: white;
+  background-size: cover;
+  display: flex;
+}
+
+.header {
+  display: inline-block;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid;
+}
+
+.logo {
+  height: 60px;
+  float: left;
+  margin: 15px;
+}
+
+:root {
+  --menu-width: 300px;
+}
+
+.sidebar {
+  padding: 10px;
+  position: fixed;
+  min-height: 100vh;
+  background: #C7EFCF;
+  width: var(--menu-width);
+  color: white;
+  box-shadow: 0px 0px 15px 0px #00000073;
+  z-index: 1;
+  margin-top: 1px;
+}
+
+.menu-items {
+  margin-top: 15px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.menu-items a {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin-bottom: 5px;
+  padding: 10px; 
+  border-radius: 10px; 
+  transition: background 0.3s; 
+}
+
+.menu-items a:hover {
+  color: white;
+  background: #4CAF50;
+}
+
+.admin-profile {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: var(--menu-width);
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.logout {
+  height: 30px;
+  cursor: pointer;
+}
+
+.admin-text {
+  font-size: 20px;
+  text-align: left;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.dropdown-menu {
+  display: none; 
+  list-style: none;
+  padding: 10px;
+  text-align: left; 
+}
+
+.dropdown-menu li {
+  display: flex;
+  align-items: left;
+  gap: 50px; /* Adds spacing between radio button and label */
+  padding: 0px 0; /* Adds spacing between each item */
+  flex-direction: column; /* Ensures items align in a row */
+}
+
+.dropdown-menu input[type="radio"] {
+  margin: 0; /* Remove extra margins */
+}
+
+
+.icon {
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+}
+
+.sidebar .fa-gear, 
+.sidebar .fa-user 
+.sidebar .fa-comments-dot
+.sidebar .fa-chart-line{
+    display: none;
+}
+
