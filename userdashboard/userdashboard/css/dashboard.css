@@ -1,0 +1,183 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Body */
+.content {
+    margin-left: 300px; /* Matches sidebar width */
+    padding: 80px 20px 20px;
+    margin-top: 60px; /* Top padding so content isn't under the header */
+}
+
+/* Header */
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.header h3 {
+    font-size: 16px;
+    color: #666;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.menu-items {
+    list-style: none;
+}
+
+.menu-items li {
+    margin: 15px 0;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.menu-items a:hover {
+    color: #4CAF50;
+}
+
+.admin-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.admin-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.logout {
+    width: 30px;
+    height: 30px;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 20%;
+    max-width: 900px;
+}
+
+.profile h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit {
+    color: #303F9F;
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 92.5%;
+}
+
+.profile p {
+    font-size: 16px;
+    margin: 12px 0;
+    padding-bottom: 8px;
+}
+
+.profile strong {
+    color: #000069;
+    min-width: 150px;
+}
+
+/* Cards (white boxes) */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 95%;
+    line-height: 2.5;
+}
+
+/* Calendar Styles */
+.fc {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.fc-day {
+    background-color: #f9f9f9;
+}
+
+.fc-day:hover {
+    background-color: #e0e0e0;
+}
+
+.fc-event {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+        position: relative;
+    }
+}

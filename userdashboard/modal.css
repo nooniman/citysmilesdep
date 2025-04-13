@@ -1,0 +1,311 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 1.25em;
+  border-radius: 0.5em;
+  width: 100%; /* Adjust based on parent width */
+  max-width: 40vw;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-top: 0.9375em solid #000069;
+  margin: auto;
+  max-height: 65vh; /* Adjust as needed */
+  overflow-y: auto;
+  margin-top: 100px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin: 1em 0;
+  border: 2px solid #ccc;
+  object-fit: cover;
+}
+.modal input{
+  margin-bottom: 20px;
+}
+.modal-content h3{
+  margin-bottom: 10px;
+}
+.modal-content label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.modal h2 {
+  margin: 1em 0;
+}
+
+.date-time-container {
+  display: flex;
+  justify-content: space-between; /* Ensures both fields stay in one row */
+  align-items: center; /* Centers vertically */
+  gap: 10px; /* Controls spacing between date and time */
+  margin: 1em 0;
+}
+
+.date-time-container .form-group {
+  flex: 1; /* Makes both inputs equal width */
+  display: flex;
+  flex-direction: column; /* Keeps label above input */
+}
+
+.date-time-container input {
+  width: 100%; /* Ensures full width within container */
+  padding: 0.5em 52px;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+#dentalHistoryModal h3 {
+  text-align: center;
+}
+
+#dentalHistoryModal h2,
+#dentalHistoryModal h3 {
+  margin-bottom: 1em;
+}
+
+#dentalHistoryModal .form-group {
+  display: flex;
+  padding: 1%;
+  flex-wrap: wrap;
+  gap: 1.5%;
+  margin-bottom: 1em;
+}
+
+#dentalHistoryModal .form-group input,
+#dentalHistoryModal .file-container input[type="file"] {
+  flex: 1;
+  min-width: 40%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  height: 40px;
+}
+
+#dentalHistoryModal input[type="text"]:not(.form-group input[type="text"]) {
+  width: 100%;
+  height: 40px;
+  padding: 1%;
+}
+
+#dentalHistoryModal input[type="text"],
+#dentalHistoryModal input[type="file"] {
+  flex: 1;
+  min-width: 40%;
+  height: 40px;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  margin-bottom: 1em;
+}
+
+#dentalHistoryModal .file-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  padding: 1%;
+}
+
+#dentalHistoryModal .file-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+  padding: 1%;
+}
+
+#dentalHistoryModal .file-item label {
+  margin-right: 1em;
+  white-space: nowrap;
+  padding: 1%;
+}
+
+#dentalHistoryModal .file-item input[type="file"] {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  height: 40px;
+  padding: 1%;
+}
+
+
+#medicalHistoryModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10vh;
+}
+
+#medicalHistoryModal .modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 80vw;
+  max-width: 600px;
+  margin-top: 10vh;
+}
+
+#medicalHistoryModal label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+#medicalHistoryModal input[type="text"],
+input[type="radio"],
+input[type="checkbox"] {
+  margin-bottom: 1rem;
+}
+
+#medicalHistoryModal .radio-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+#medicalHistoryModal .radio-group label {
+  margin-left: 1rem;
+}
+
+#medicalHistoryModal h2,
+#medicalHistoryModal h3 {
+  margin-bottom: 1em;
+}
+
+#medicalHistoryModal .input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#medicalHistoryModal .input-group label {
+  margin-right: 10px;
+}
+
+.question {
+  margin-bottom: 1em;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  gap: 3%; /* Add spacing between buttons */
+}
+
+.modal-buttons .btn {
+  gap: space-between;
+  padding: 1% 2%;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+.modal-buttons .btn.cancel {
+
+  background-color: white;
+  color: #000069;
+  padding: 10px 20px;
+  border-radius: 0.3em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.modal-buttons .btn.cancel:hover {
+  border: 1px solid red;
+}
+
+.modal-buttons .btn.next {
+  background-color: #000069;
+  color: white;
+}
+
+.modal-buttons .btn.next:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Spacing between checkboxes */
+  justify-content: space-between; /* Distributes checkboxes in two columns */
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  width: 48%; /* Ensures two columns */
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  accent-color: #000069;
+  cursor: pointer;
+}
+.checkbox-group span{
+font-size: 15px;
+}
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between Yes and No options */
+}
+
+.custom-radio {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Reducing space between radio button and label */
+  cursor: pointer;
+}
+
+.custom-radio input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  margin: 0; /* Ensures no extra space */
+  cursor: pointer;
+}

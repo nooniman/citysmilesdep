@@ -1,0 +1,10 @@
+[2025-03-24 21:11:50] POST data: {"patient_id":"21","selected_date":"2025-03-31","selected_time":"09:30:00","service_id":"1","dentist_id":"20","notes":""}
+[2025-03-24 21:11:50] Processing: patient=21, service=1, staff_id=20, date=2025-03-31, time=09:30:00
+[2025-03-24 21:15:34] POST data: {"patient_id":"21","selected_date":"2025-03-31","selected_time":"10:00:00","service_id":"2","dentist_id":"20","notes":""}
+[2025-03-24 21:15:34] Error: No patient record found for user_id 21
+[2025-03-24 21:18:48] POST data: {"patient_id":"21","selected_date":"2025-03-31","selected_time":"08:30:00","service_id":"2","dentist_id":"20","notes":""}
+[2025-03-24 21:18:48] Processing: user_id=21, patient_id=15, service=2, staff_id=20, date=2025-03-31, time=08:30:00
+[2025-03-24 21:18:48] Appointment saved successfully with ID: 15
+[2025-03-27 14:19:04] POST data: {"patient_id":"22","selected_date":"2025-03-31","selected_time":"08:00:00","service_id":"2","dentist_id":"12","notes":""}
+[2025-03-27 14:19:04] Processing: user_id=22, patient_id=16, service=2, staff_id=12, date=2025-03-31, time=08:00:00
+[2025-03-27 14:19:04] Appointment saved successfully with ID: 14

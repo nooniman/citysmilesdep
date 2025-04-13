@@ -1,0 +1,147 @@
+.service h1 {
+    color: #7B32AB;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    font-size: 2.8em;
+}
+
+.services {
+    padding: 5% 0;
+    background-color: rgba(123, 50, 171, 0.1);
+    margin-top: 100px; 
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.services-slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.services-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: fit-content;
+}
+
+.service-item {
+    flex: 0 0 25%; 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 0 10px;
+    border: 1px solid #ccc; /* Add border to the container */
+    padding: 1px;
+    background-color: #fff; /* Add background color to the container */
+}
+
+.service-item a {
+    text-decoration: none;
+    color: #7B32AB; /* Default color */
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+}
+
+.service-item a:hover {
+    color: #104f31; /* Change this to your preferred hover color */
+}
+
+.service-image-container {
+    width: 100%;
+    max-width: 100%; /* Adjust the max-width as needed */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover; /* Ensure the image covers the container */
+    display: block;
+}
+
+.service-item p {
+    margin-top: 10px;
+    text-align:left;
+    font-size: 30px;
+    color: hsl(288, 53%, 39%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.service-details {
+    padding: 20px;
+    max-width: 1200px; /* Increase the max-width to allow more space */
+    margin: 100px auto 20px; /* Add top margin to avoid overlap with navbar */
+}
+
+.service-details {
+    padding: 20px;
+    max-width: 1200px; /* Increase the max-width to allow more space */
+    margin: 100px auto 20px; /* Add top margin to avoid overlap with navbar */
+}
+
+.service-details h1 {
+    color: #7B32AB;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    width: 50%; /* Set the header to take only half the space */
+}
+
+.service-content {
+    display: flex; /* Use flexbox to align items */
+    align-items: flex-start; /* Align items to the top */
+    flex-direction: row-reverse; /* Reverse the order to put the image on the right */
+    width: 100%;
+    height: auto;
+}
+
+.service-content .image-container {
+    width: 50%; /* Set the image container to 50% */
+    height: 500px; /* Set a height for the image container */
+    margin-left: 200px; /* Add margin to the left to create space between image and text */
+    margin-top: -9.5%; /* Move the image container slightly above */
+    margin-right: -2.5%;
+    background-size: cover; /* Ensure the background image covers the container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+.service-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left; /* Ensure text is aligned to the left */
+    flex: 1; /* Allow the text to take up the remaining space */
+}
+
+.appointment-button {
+    display: inline-block;
+    margin-bottom: -10%; /* Move the button up by reducing the margin-top */
+    padding: 10px 20px;
+    background-color: #7B32AB;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
